@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jiaowenqi/CLionProjects/MyTest/boolTest.cpp
+iostream
+/Users/jiaowenqi/CLionProjects/MyTest/iostream
+

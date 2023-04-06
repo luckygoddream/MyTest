@@ -1,0 +1,9 @@
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/operationTest.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/cinTest.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/boolTest.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/stringTest.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/escapeTest.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/charTest.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/MyTest.dir
