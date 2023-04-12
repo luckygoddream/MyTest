@@ -27,11 +27,925 @@
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="PointerTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/PointerTest" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 PointerTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PointerTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/PointerTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 PointerTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FenWenJian">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/FenWenJian" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 FenWenJian"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FenWenJian/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/FenWenJian" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 FenWenJian/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FunctionDeclarationTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/FunctionDeclarationTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 FunctionDeclarationTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FunctionDeclarationTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/FunctionDeclarationTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 FunctionDeclarationTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrayTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/arrayTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrayTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrayTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/arrayTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrayTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bubbleSortTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/bubbleSortTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubbleSortTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bubbleSortTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/bubbleSortTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubbleSortTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="daffodilsTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/daffodilsTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 daffodilsTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="daffodilsTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/daffodilsTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 daffodilsTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gotoTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/gotoTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 gotoTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gotoTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/gotoTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 gotoTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="breakTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/breakTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 breakTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="breakTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/breakTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 breakTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="twoArrayTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/twoArrayTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 twoArrayTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="twoArrayTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/twoArrayTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 twoArrayTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="forTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/forTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 forTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="forTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/forTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 forTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/MyTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/MyTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="escapeTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/escapeTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 escapeTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="escapeTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/escapeTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 escapeTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doWhileTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/doWhileTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 doWhileTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doWhileTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/doWhileTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 doWhileTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="whileTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/whileTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 whileTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="whileTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/whileTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 whileTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ternaryOperationTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/ternaryOperationTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 ternaryOperationTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ternaryOperationTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/ternaryOperationTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 ternaryOperationTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="logicTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/logicTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 logicTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="logicTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/logicTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 logicTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chooseTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/chooseTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 chooseTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chooseTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/chooseTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 chooseTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="functionTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/functionTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 functionTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="functionTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/functionTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 functionTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compareTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/compareTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 compareTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compareTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/compareTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 compareTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignmentTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/assignmentTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 assignmentTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignmentTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/assignmentTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 assignmentTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="switchTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/switchTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 switchTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="switchTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/switchTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 switchTest/fast"/>
 					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -169,6 +1083,16 @@
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="stringTest">
 				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/stringTest" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
@@ -213,8 +1137,8 @@
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="escapeTest">
-				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/escapeTest" prefix_auto="0" extension_auto="0"/>
+			<Target title="pigTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/pigTest" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -229,14 +1153,14 @@
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 escapeTest"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 pigTest"/>
 					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="escapeTest/fast">
-				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/escapeTest" prefix_auto="0" extension_auto="0"/>
+			<Target title="pigTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/pigTest" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -251,7 +1175,7 @@
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 escapeTest/fast"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 pigTest/fast"/>
 					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -301,62 +1225,66 @@
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="MyTest">
-				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/MyTest" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
-					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
-					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
-					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
-					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyTest"/>
-					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="MyTest/fast">
-				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/MyTest" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
-					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
-					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
-					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
-					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyTest/fast"/>
-					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FenWenJian.cpp">
+			<Option target="FenWenJian"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FenWenJian.h">
+			<Option target="FenWenJian"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FunctionDeclarationTest.cpp">
+			<Option target="FunctionDeclarationTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/PointerTest.cpp">
+			<Option target="PointerTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/arrayTest.cpp">
+			<Option target="arrayTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/assignmentTest.cpp">
+			<Option target="assignmentTest"/>
+		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/boolTest.cpp">
 			<Option target="boolTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/breakTest.cpp">
+			<Option target="breakTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/bubbleSortTest.cpp">
+			<Option target="bubbleSortTest"/>
 		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/charTest.cpp">
 			<Option target="charTest"/>
 		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/chooseTest.cpp">
+			<Option target="chooseTest"/>
+		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/cinTest.cpp">
 			<Option target="cinTest"/>
 		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/compareTest.cpp">
+			<Option target="compareTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/daffodilsTest.cpp">
+			<Option target="daffodilsTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/doWhileTest.cpp">
+			<Option target="doWhileTest"/>
+		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/escapeTest.cpp">
 			<Option target="escapeTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/forTest.cpp">
+			<Option target="forTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/functionTest.cpp">
+			<Option target="functionTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/gotoTest.cpp">
+			<Option target="gotoTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/logicTest.cpp">
+			<Option target="logicTest"/>
 		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/main.cpp">
 			<Option target="MyTest"/>
@@ -364,8 +1292,23 @@
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/operationTest.cpp">
 			<Option target="operationTest"/>
 		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/pigTest.cpp">
+			<Option target="pigTest"/>
+		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/stringTest.cpp">
 			<Option target="stringTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/switchTest.cpp">
+			<Option target="switchTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/ternaryOperationTest.cpp">
+			<Option target="ternaryOperationTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/twoArrayTest.cpp">
+			<Option target="twoArrayTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/whileTest.cpp">
+			<Option target="whileTest"/>
 		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

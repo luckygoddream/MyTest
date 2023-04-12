@@ -130,6 +130,279 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named PointerTest
+
+# Build rule for target.
+PointerTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PointerTest
+.PHONY : PointerTest
+
+# fast build rule for target.
+PointerTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PointerTest.dir/build.make CMakeFiles/PointerTest.dir/build
+.PHONY : PointerTest/fast
+
+#=============================================================================
+# Target rules for targets named FenWenJian
+
+# Build rule for target.
+FenWenJian: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FenWenJian
+.PHONY : FenWenJian
+
+# fast build rule for target.
+FenWenJian/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FenWenJian.dir/build.make CMakeFiles/FenWenJian.dir/build
+.PHONY : FenWenJian/fast
+
+#=============================================================================
+# Target rules for targets named FunctionDeclarationTest
+
+# Build rule for target.
+FunctionDeclarationTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FunctionDeclarationTest
+.PHONY : FunctionDeclarationTest
+
+# fast build rule for target.
+FunctionDeclarationTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionDeclarationTest.dir/build.make CMakeFiles/FunctionDeclarationTest.dir/build
+.PHONY : FunctionDeclarationTest/fast
+
+#=============================================================================
+# Target rules for targets named arrayTest
+
+# Build rule for target.
+arrayTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arrayTest
+.PHONY : arrayTest
+
+# fast build rule for target.
+arrayTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayTest.dir/build.make CMakeFiles/arrayTest.dir/build
+.PHONY : arrayTest/fast
+
+#=============================================================================
+# Target rules for targets named bubbleSortTest
+
+# Build rule for target.
+bubbleSortTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bubbleSortTest
+.PHONY : bubbleSortTest
+
+# fast build rule for target.
+bubbleSortTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubbleSortTest.dir/build.make CMakeFiles/bubbleSortTest.dir/build
+.PHONY : bubbleSortTest/fast
+
+#=============================================================================
+# Target rules for targets named daffodilsTest
+
+# Build rule for target.
+daffodilsTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 daffodilsTest
+.PHONY : daffodilsTest
+
+# fast build rule for target.
+daffodilsTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/daffodilsTest.dir/build.make CMakeFiles/daffodilsTest.dir/build
+.PHONY : daffodilsTest/fast
+
+#=============================================================================
+# Target rules for targets named gotoTest
+
+# Build rule for target.
+gotoTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gotoTest
+.PHONY : gotoTest
+
+# fast build rule for target.
+gotoTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gotoTest.dir/build.make CMakeFiles/gotoTest.dir/build
+.PHONY : gotoTest/fast
+
+#=============================================================================
+# Target rules for targets named breakTest
+
+# Build rule for target.
+breakTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 breakTest
+.PHONY : breakTest
+
+# fast build rule for target.
+breakTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakTest.dir/build.make CMakeFiles/breakTest.dir/build
+.PHONY : breakTest/fast
+
+#=============================================================================
+# Target rules for targets named twoArrayTest
+
+# Build rule for target.
+twoArrayTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 twoArrayTest
+.PHONY : twoArrayTest
+
+# fast build rule for target.
+twoArrayTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twoArrayTest.dir/build.make CMakeFiles/twoArrayTest.dir/build
+.PHONY : twoArrayTest/fast
+
+#=============================================================================
+# Target rules for targets named forTest
+
+# Build rule for target.
+forTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 forTest
+.PHONY : forTest
+
+# fast build rule for target.
+forTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forTest.dir/build.make CMakeFiles/forTest.dir/build
+.PHONY : forTest/fast
+
+#=============================================================================
+# Target rules for targets named MyTest
+
+# Build rule for target.
+MyTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyTest
+.PHONY : MyTest
+
+# fast build rule for target.
+MyTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTest.dir/build.make CMakeFiles/MyTest.dir/build
+.PHONY : MyTest/fast
+
+#=============================================================================
+# Target rules for targets named escapeTest
+
+# Build rule for target.
+escapeTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 escapeTest
+.PHONY : escapeTest
+
+# fast build rule for target.
+escapeTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/escapeTest.dir/build.make CMakeFiles/escapeTest.dir/build
+.PHONY : escapeTest/fast
+
+#=============================================================================
+# Target rules for targets named doWhileTest
+
+# Build rule for target.
+doWhileTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 doWhileTest
+.PHONY : doWhileTest
+
+# fast build rule for target.
+doWhileTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doWhileTest.dir/build.make CMakeFiles/doWhileTest.dir/build
+.PHONY : doWhileTest/fast
+
+#=============================================================================
+# Target rules for targets named whileTest
+
+# Build rule for target.
+whileTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 whileTest
+.PHONY : whileTest
+
+# fast build rule for target.
+whileTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/whileTest.dir/build.make CMakeFiles/whileTest.dir/build
+.PHONY : whileTest/fast
+
+#=============================================================================
+# Target rules for targets named ternaryOperationTest
+
+# Build rule for target.
+ternaryOperationTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ternaryOperationTest
+.PHONY : ternaryOperationTest
+
+# fast build rule for target.
+ternaryOperationTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperationTest.dir/build.make CMakeFiles/ternaryOperationTest.dir/build
+.PHONY : ternaryOperationTest/fast
+
+#=============================================================================
+# Target rules for targets named logicTest
+
+# Build rule for target.
+logicTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logicTest
+.PHONY : logicTest
+
+# fast build rule for target.
+logicTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logicTest.dir/build.make CMakeFiles/logicTest.dir/build
+.PHONY : logicTest/fast
+
+#=============================================================================
+# Target rules for targets named chooseTest
+
+# Build rule for target.
+chooseTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chooseTest
+.PHONY : chooseTest
+
+# fast build rule for target.
+chooseTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chooseTest.dir/build.make CMakeFiles/chooseTest.dir/build
+.PHONY : chooseTest/fast
+
+#=============================================================================
+# Target rules for targets named functionTest
+
+# Build rule for target.
+functionTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functionTest
+.PHONY : functionTest
+
+# fast build rule for target.
+functionTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/functionTest.dir/build.make CMakeFiles/functionTest.dir/build
+.PHONY : functionTest/fast
+
+#=============================================================================
+# Target rules for targets named compareTest
+
+# Build rule for target.
+compareTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compareTest
+.PHONY : compareTest
+
+# fast build rule for target.
+compareTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compareTest.dir/build.make CMakeFiles/compareTest.dir/build
+.PHONY : compareTest/fast
+
+#=============================================================================
+# Target rules for targets named assignmentTest
+
+# Build rule for target.
+assignmentTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignmentTest
+.PHONY : assignmentTest
+
+# fast build rule for target.
+assignmentTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignmentTest.dir/build.make CMakeFiles/assignmentTest.dir/build
+.PHONY : assignmentTest/fast
+
+#=============================================================================
+# Target rules for targets named switchTest
+
+# Build rule for target.
+switchTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 switchTest
+.PHONY : switchTest
+
+# fast build rule for target.
+switchTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchTest.dir/build.make CMakeFiles/switchTest.dir/build
+.PHONY : switchTest/fast
+
+#=============================================================================
 # Target rules for targets named operationTest
 
 # Build rule for target.
@@ -182,17 +455,17 @@ stringTest/fast:
 .PHONY : stringTest/fast
 
 #=============================================================================
-# Target rules for targets named escapeTest
+# Target rules for targets named pigTest
 
 # Build rule for target.
-escapeTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 escapeTest
-.PHONY : escapeTest
+pigTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pigTest
+.PHONY : pigTest
 
 # fast build rule for target.
-escapeTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/escapeTest.dir/build.make CMakeFiles/escapeTest.dir/build
-.PHONY : escapeTest/fast
+pigTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigTest.dir/build.make CMakeFiles/pigTest.dir/build
+.PHONY : pigTest/fast
 
 #=============================================================================
 # Target rules for targets named charTest
@@ -207,18 +480,140 @@ charTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charTest.dir/build.make CMakeFiles/charTest.dir/build
 .PHONY : charTest/fast
 
-#=============================================================================
-# Target rules for targets named MyTest
+FenWenJian.o: FenWenJian.cpp.o
 
-# Build rule for target.
-MyTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyTest
-.PHONY : MyTest
+.PHONY : FenWenJian.o
 
-# fast build rule for target.
-MyTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTest.dir/build.make CMakeFiles/MyTest.dir/build
-.PHONY : MyTest/fast
+# target to build an object file
+FenWenJian.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FenWenJian.dir/build.make CMakeFiles/FenWenJian.dir/FenWenJian.cpp.o
+.PHONY : FenWenJian.cpp.o
+
+FenWenJian.i: FenWenJian.cpp.i
+
+.PHONY : FenWenJian.i
+
+# target to preprocess a source file
+FenWenJian.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FenWenJian.dir/build.make CMakeFiles/FenWenJian.dir/FenWenJian.cpp.i
+.PHONY : FenWenJian.cpp.i
+
+FenWenJian.s: FenWenJian.cpp.s
+
+.PHONY : FenWenJian.s
+
+# target to generate assembly for a file
+FenWenJian.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FenWenJian.dir/build.make CMakeFiles/FenWenJian.dir/FenWenJian.cpp.s
+.PHONY : FenWenJian.cpp.s
+
+FunctionDeclarationTest.o: FunctionDeclarationTest.cpp.o
+
+.PHONY : FunctionDeclarationTest.o
+
+# target to build an object file
+FunctionDeclarationTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionDeclarationTest.dir/build.make CMakeFiles/FunctionDeclarationTest.dir/FunctionDeclarationTest.cpp.o
+.PHONY : FunctionDeclarationTest.cpp.o
+
+FunctionDeclarationTest.i: FunctionDeclarationTest.cpp.i
+
+.PHONY : FunctionDeclarationTest.i
+
+# target to preprocess a source file
+FunctionDeclarationTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionDeclarationTest.dir/build.make CMakeFiles/FunctionDeclarationTest.dir/FunctionDeclarationTest.cpp.i
+.PHONY : FunctionDeclarationTest.cpp.i
+
+FunctionDeclarationTest.s: FunctionDeclarationTest.cpp.s
+
+.PHONY : FunctionDeclarationTest.s
+
+# target to generate assembly for a file
+FunctionDeclarationTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionDeclarationTest.dir/build.make CMakeFiles/FunctionDeclarationTest.dir/FunctionDeclarationTest.cpp.s
+.PHONY : FunctionDeclarationTest.cpp.s
+
+PointerTest.o: PointerTest.cpp.o
+
+.PHONY : PointerTest.o
+
+# target to build an object file
+PointerTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PointerTest.dir/build.make CMakeFiles/PointerTest.dir/PointerTest.cpp.o
+.PHONY : PointerTest.cpp.o
+
+PointerTest.i: PointerTest.cpp.i
+
+.PHONY : PointerTest.i
+
+# target to preprocess a source file
+PointerTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PointerTest.dir/build.make CMakeFiles/PointerTest.dir/PointerTest.cpp.i
+.PHONY : PointerTest.cpp.i
+
+PointerTest.s: PointerTest.cpp.s
+
+.PHONY : PointerTest.s
+
+# target to generate assembly for a file
+PointerTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PointerTest.dir/build.make CMakeFiles/PointerTest.dir/PointerTest.cpp.s
+.PHONY : PointerTest.cpp.s
+
+arrayTest.o: arrayTest.cpp.o
+
+.PHONY : arrayTest.o
+
+# target to build an object file
+arrayTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayTest.dir/build.make CMakeFiles/arrayTest.dir/arrayTest.cpp.o
+.PHONY : arrayTest.cpp.o
+
+arrayTest.i: arrayTest.cpp.i
+
+.PHONY : arrayTest.i
+
+# target to preprocess a source file
+arrayTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayTest.dir/build.make CMakeFiles/arrayTest.dir/arrayTest.cpp.i
+.PHONY : arrayTest.cpp.i
+
+arrayTest.s: arrayTest.cpp.s
+
+.PHONY : arrayTest.s
+
+# target to generate assembly for a file
+arrayTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayTest.dir/build.make CMakeFiles/arrayTest.dir/arrayTest.cpp.s
+.PHONY : arrayTest.cpp.s
+
+assignmentTest.o: assignmentTest.cpp.o
+
+.PHONY : assignmentTest.o
+
+# target to build an object file
+assignmentTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignmentTest.dir/build.make CMakeFiles/assignmentTest.dir/assignmentTest.cpp.o
+.PHONY : assignmentTest.cpp.o
+
+assignmentTest.i: assignmentTest.cpp.i
+
+.PHONY : assignmentTest.i
+
+# target to preprocess a source file
+assignmentTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignmentTest.dir/build.make CMakeFiles/assignmentTest.dir/assignmentTest.cpp.i
+.PHONY : assignmentTest.cpp.i
+
+assignmentTest.s: assignmentTest.cpp.s
+
+.PHONY : assignmentTest.s
+
+# target to generate assembly for a file
+assignmentTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignmentTest.dir/build.make CMakeFiles/assignmentTest.dir/assignmentTest.cpp.s
+.PHONY : assignmentTest.cpp.s
 
 boolTest.o: boolTest.cpp.o
 
@@ -247,6 +642,60 @@ boolTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/boolTest.dir/build.make CMakeFiles/boolTest.dir/boolTest.cpp.s
 .PHONY : boolTest.cpp.s
 
+breakTest.o: breakTest.cpp.o
+
+.PHONY : breakTest.o
+
+# target to build an object file
+breakTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakTest.dir/build.make CMakeFiles/breakTest.dir/breakTest.cpp.o
+.PHONY : breakTest.cpp.o
+
+breakTest.i: breakTest.cpp.i
+
+.PHONY : breakTest.i
+
+# target to preprocess a source file
+breakTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakTest.dir/build.make CMakeFiles/breakTest.dir/breakTest.cpp.i
+.PHONY : breakTest.cpp.i
+
+breakTest.s: breakTest.cpp.s
+
+.PHONY : breakTest.s
+
+# target to generate assembly for a file
+breakTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakTest.dir/build.make CMakeFiles/breakTest.dir/breakTest.cpp.s
+.PHONY : breakTest.cpp.s
+
+bubbleSortTest.o: bubbleSortTest.cpp.o
+
+.PHONY : bubbleSortTest.o
+
+# target to build an object file
+bubbleSortTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubbleSortTest.dir/build.make CMakeFiles/bubbleSortTest.dir/bubbleSortTest.cpp.o
+.PHONY : bubbleSortTest.cpp.o
+
+bubbleSortTest.i: bubbleSortTest.cpp.i
+
+.PHONY : bubbleSortTest.i
+
+# target to preprocess a source file
+bubbleSortTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubbleSortTest.dir/build.make CMakeFiles/bubbleSortTest.dir/bubbleSortTest.cpp.i
+.PHONY : bubbleSortTest.cpp.i
+
+bubbleSortTest.s: bubbleSortTest.cpp.s
+
+.PHONY : bubbleSortTest.s
+
+# target to generate assembly for a file
+bubbleSortTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubbleSortTest.dir/build.make CMakeFiles/bubbleSortTest.dir/bubbleSortTest.cpp.s
+.PHONY : bubbleSortTest.cpp.s
+
 charTest.o: charTest.cpp.o
 
 .PHONY : charTest.o
@@ -273,6 +722,33 @@ charTest.s: charTest.cpp.s
 charTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charTest.dir/build.make CMakeFiles/charTest.dir/charTest.cpp.s
 .PHONY : charTest.cpp.s
+
+chooseTest.o: chooseTest.cpp.o
+
+.PHONY : chooseTest.o
+
+# target to build an object file
+chooseTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chooseTest.dir/build.make CMakeFiles/chooseTest.dir/chooseTest.cpp.o
+.PHONY : chooseTest.cpp.o
+
+chooseTest.i: chooseTest.cpp.i
+
+.PHONY : chooseTest.i
+
+# target to preprocess a source file
+chooseTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chooseTest.dir/build.make CMakeFiles/chooseTest.dir/chooseTest.cpp.i
+.PHONY : chooseTest.cpp.i
+
+chooseTest.s: chooseTest.cpp.s
+
+.PHONY : chooseTest.s
+
+# target to generate assembly for a file
+chooseTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chooseTest.dir/build.make CMakeFiles/chooseTest.dir/chooseTest.cpp.s
+.PHONY : chooseTest.cpp.s
 
 cinTest.o: cinTest.cpp.o
 
@@ -301,6 +777,87 @@ cinTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cinTest.dir/build.make CMakeFiles/cinTest.dir/cinTest.cpp.s
 .PHONY : cinTest.cpp.s
 
+compareTest.o: compareTest.cpp.o
+
+.PHONY : compareTest.o
+
+# target to build an object file
+compareTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compareTest.dir/build.make CMakeFiles/compareTest.dir/compareTest.cpp.o
+.PHONY : compareTest.cpp.o
+
+compareTest.i: compareTest.cpp.i
+
+.PHONY : compareTest.i
+
+# target to preprocess a source file
+compareTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compareTest.dir/build.make CMakeFiles/compareTest.dir/compareTest.cpp.i
+.PHONY : compareTest.cpp.i
+
+compareTest.s: compareTest.cpp.s
+
+.PHONY : compareTest.s
+
+# target to generate assembly for a file
+compareTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compareTest.dir/build.make CMakeFiles/compareTest.dir/compareTest.cpp.s
+.PHONY : compareTest.cpp.s
+
+daffodilsTest.o: daffodilsTest.cpp.o
+
+.PHONY : daffodilsTest.o
+
+# target to build an object file
+daffodilsTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/daffodilsTest.dir/build.make CMakeFiles/daffodilsTest.dir/daffodilsTest.cpp.o
+.PHONY : daffodilsTest.cpp.o
+
+daffodilsTest.i: daffodilsTest.cpp.i
+
+.PHONY : daffodilsTest.i
+
+# target to preprocess a source file
+daffodilsTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/daffodilsTest.dir/build.make CMakeFiles/daffodilsTest.dir/daffodilsTest.cpp.i
+.PHONY : daffodilsTest.cpp.i
+
+daffodilsTest.s: daffodilsTest.cpp.s
+
+.PHONY : daffodilsTest.s
+
+# target to generate assembly for a file
+daffodilsTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/daffodilsTest.dir/build.make CMakeFiles/daffodilsTest.dir/daffodilsTest.cpp.s
+.PHONY : daffodilsTest.cpp.s
+
+doWhileTest.o: doWhileTest.cpp.o
+
+.PHONY : doWhileTest.o
+
+# target to build an object file
+doWhileTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doWhileTest.dir/build.make CMakeFiles/doWhileTest.dir/doWhileTest.cpp.o
+.PHONY : doWhileTest.cpp.o
+
+doWhileTest.i: doWhileTest.cpp.i
+
+.PHONY : doWhileTest.i
+
+# target to preprocess a source file
+doWhileTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doWhileTest.dir/build.make CMakeFiles/doWhileTest.dir/doWhileTest.cpp.i
+.PHONY : doWhileTest.cpp.i
+
+doWhileTest.s: doWhileTest.cpp.s
+
+.PHONY : doWhileTest.s
+
+# target to generate assembly for a file
+doWhileTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doWhileTest.dir/build.make CMakeFiles/doWhileTest.dir/doWhileTest.cpp.s
+.PHONY : doWhileTest.cpp.s
+
 escapeTest.o: escapeTest.cpp.o
 
 .PHONY : escapeTest.o
@@ -327,6 +884,114 @@ escapeTest.s: escapeTest.cpp.s
 escapeTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/escapeTest.dir/build.make CMakeFiles/escapeTest.dir/escapeTest.cpp.s
 .PHONY : escapeTest.cpp.s
+
+forTest.o: forTest.cpp.o
+
+.PHONY : forTest.o
+
+# target to build an object file
+forTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forTest.dir/build.make CMakeFiles/forTest.dir/forTest.cpp.o
+.PHONY : forTest.cpp.o
+
+forTest.i: forTest.cpp.i
+
+.PHONY : forTest.i
+
+# target to preprocess a source file
+forTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forTest.dir/build.make CMakeFiles/forTest.dir/forTest.cpp.i
+.PHONY : forTest.cpp.i
+
+forTest.s: forTest.cpp.s
+
+.PHONY : forTest.s
+
+# target to generate assembly for a file
+forTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/forTest.dir/build.make CMakeFiles/forTest.dir/forTest.cpp.s
+.PHONY : forTest.cpp.s
+
+functionTest.o: functionTest.cpp.o
+
+.PHONY : functionTest.o
+
+# target to build an object file
+functionTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/functionTest.dir/build.make CMakeFiles/functionTest.dir/functionTest.cpp.o
+.PHONY : functionTest.cpp.o
+
+functionTest.i: functionTest.cpp.i
+
+.PHONY : functionTest.i
+
+# target to preprocess a source file
+functionTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/functionTest.dir/build.make CMakeFiles/functionTest.dir/functionTest.cpp.i
+.PHONY : functionTest.cpp.i
+
+functionTest.s: functionTest.cpp.s
+
+.PHONY : functionTest.s
+
+# target to generate assembly for a file
+functionTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/functionTest.dir/build.make CMakeFiles/functionTest.dir/functionTest.cpp.s
+.PHONY : functionTest.cpp.s
+
+gotoTest.o: gotoTest.cpp.o
+
+.PHONY : gotoTest.o
+
+# target to build an object file
+gotoTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gotoTest.dir/build.make CMakeFiles/gotoTest.dir/gotoTest.cpp.o
+.PHONY : gotoTest.cpp.o
+
+gotoTest.i: gotoTest.cpp.i
+
+.PHONY : gotoTest.i
+
+# target to preprocess a source file
+gotoTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gotoTest.dir/build.make CMakeFiles/gotoTest.dir/gotoTest.cpp.i
+.PHONY : gotoTest.cpp.i
+
+gotoTest.s: gotoTest.cpp.s
+
+.PHONY : gotoTest.s
+
+# target to generate assembly for a file
+gotoTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gotoTest.dir/build.make CMakeFiles/gotoTest.dir/gotoTest.cpp.s
+.PHONY : gotoTest.cpp.s
+
+logicTest.o: logicTest.cpp.o
+
+.PHONY : logicTest.o
+
+# target to build an object file
+logicTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logicTest.dir/build.make CMakeFiles/logicTest.dir/logicTest.cpp.o
+.PHONY : logicTest.cpp.o
+
+logicTest.i: logicTest.cpp.i
+
+.PHONY : logicTest.i
+
+# target to preprocess a source file
+logicTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logicTest.dir/build.make CMakeFiles/logicTest.dir/logicTest.cpp.i
+.PHONY : logicTest.cpp.i
+
+logicTest.s: logicTest.cpp.s
+
+.PHONY : logicTest.s
+
+# target to generate assembly for a file
+logicTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logicTest.dir/build.make CMakeFiles/logicTest.dir/logicTest.cpp.s
+.PHONY : logicTest.cpp.s
 
 main.o: main.cpp.o
 
@@ -382,6 +1047,33 @@ operationTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/operationTest.dir/build.make CMakeFiles/operationTest.dir/operationTest.cpp.s
 .PHONY : operationTest.cpp.s
 
+pigTest.o: pigTest.cpp.o
+
+.PHONY : pigTest.o
+
+# target to build an object file
+pigTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigTest.dir/build.make CMakeFiles/pigTest.dir/pigTest.cpp.o
+.PHONY : pigTest.cpp.o
+
+pigTest.i: pigTest.cpp.i
+
+.PHONY : pigTest.i
+
+# target to preprocess a source file
+pigTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigTest.dir/build.make CMakeFiles/pigTest.dir/pigTest.cpp.i
+.PHONY : pigTest.cpp.i
+
+pigTest.s: pigTest.cpp.s
+
+.PHONY : pigTest.s
+
+# target to generate assembly for a file
+pigTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigTest.dir/build.make CMakeFiles/pigTest.dir/pigTest.cpp.s
+.PHONY : pigTest.cpp.s
+
 stringTest.o: stringTest.cpp.o
 
 .PHONY : stringTest.o
@@ -409,6 +1101,114 @@ stringTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringTest.dir/build.make CMakeFiles/stringTest.dir/stringTest.cpp.s
 .PHONY : stringTest.cpp.s
 
+switchTest.o: switchTest.cpp.o
+
+.PHONY : switchTest.o
+
+# target to build an object file
+switchTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchTest.dir/build.make CMakeFiles/switchTest.dir/switchTest.cpp.o
+.PHONY : switchTest.cpp.o
+
+switchTest.i: switchTest.cpp.i
+
+.PHONY : switchTest.i
+
+# target to preprocess a source file
+switchTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchTest.dir/build.make CMakeFiles/switchTest.dir/switchTest.cpp.i
+.PHONY : switchTest.cpp.i
+
+switchTest.s: switchTest.cpp.s
+
+.PHONY : switchTest.s
+
+# target to generate assembly for a file
+switchTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchTest.dir/build.make CMakeFiles/switchTest.dir/switchTest.cpp.s
+.PHONY : switchTest.cpp.s
+
+ternaryOperationTest.o: ternaryOperationTest.cpp.o
+
+.PHONY : ternaryOperationTest.o
+
+# target to build an object file
+ternaryOperationTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperationTest.dir/build.make CMakeFiles/ternaryOperationTest.dir/ternaryOperationTest.cpp.o
+.PHONY : ternaryOperationTest.cpp.o
+
+ternaryOperationTest.i: ternaryOperationTest.cpp.i
+
+.PHONY : ternaryOperationTest.i
+
+# target to preprocess a source file
+ternaryOperationTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperationTest.dir/build.make CMakeFiles/ternaryOperationTest.dir/ternaryOperationTest.cpp.i
+.PHONY : ternaryOperationTest.cpp.i
+
+ternaryOperationTest.s: ternaryOperationTest.cpp.s
+
+.PHONY : ternaryOperationTest.s
+
+# target to generate assembly for a file
+ternaryOperationTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperationTest.dir/build.make CMakeFiles/ternaryOperationTest.dir/ternaryOperationTest.cpp.s
+.PHONY : ternaryOperationTest.cpp.s
+
+twoArrayTest.o: twoArrayTest.cpp.o
+
+.PHONY : twoArrayTest.o
+
+# target to build an object file
+twoArrayTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twoArrayTest.dir/build.make CMakeFiles/twoArrayTest.dir/twoArrayTest.cpp.o
+.PHONY : twoArrayTest.cpp.o
+
+twoArrayTest.i: twoArrayTest.cpp.i
+
+.PHONY : twoArrayTest.i
+
+# target to preprocess a source file
+twoArrayTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twoArrayTest.dir/build.make CMakeFiles/twoArrayTest.dir/twoArrayTest.cpp.i
+.PHONY : twoArrayTest.cpp.i
+
+twoArrayTest.s: twoArrayTest.cpp.s
+
+.PHONY : twoArrayTest.s
+
+# target to generate assembly for a file
+twoArrayTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twoArrayTest.dir/build.make CMakeFiles/twoArrayTest.dir/twoArrayTest.cpp.s
+.PHONY : twoArrayTest.cpp.s
+
+whileTest.o: whileTest.cpp.o
+
+.PHONY : whileTest.o
+
+# target to build an object file
+whileTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/whileTest.dir/build.make CMakeFiles/whileTest.dir/whileTest.cpp.o
+.PHONY : whileTest.cpp.o
+
+whileTest.i: whileTest.cpp.i
+
+.PHONY : whileTest.i
+
+# target to preprocess a source file
+whileTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/whileTest.dir/build.make CMakeFiles/whileTest.dir/whileTest.cpp.i
+.PHONY : whileTest.cpp.i
+
+whileTest.s: whileTest.cpp.s
+
+.PHONY : whileTest.s
+
+# target to generate assembly for a file
+whileTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/whileTest.dir/build.make CMakeFiles/whileTest.dir/whileTest.cpp.s
+.PHONY : whileTest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -417,34 +1217,114 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... FenWenJian"
+	@echo "... FunctionDeclarationTest"
 	@echo "... MyTest"
+	@echo "... PointerTest"
+	@echo "... arrayTest"
+	@echo "... assignmentTest"
 	@echo "... boolTest"
+	@echo "... breakTest"
+	@echo "... bubbleSortTest"
 	@echo "... charTest"
+	@echo "... chooseTest"
 	@echo "... cinTest"
+	@echo "... compareTest"
+	@echo "... daffodilsTest"
+	@echo "... doWhileTest"
 	@echo "... escapeTest"
+	@echo "... forTest"
+	@echo "... functionTest"
+	@echo "... gotoTest"
+	@echo "... logicTest"
 	@echo "... operationTest"
+	@echo "... pigTest"
 	@echo "... stringTest"
+	@echo "... switchTest"
+	@echo "... ternaryOperationTest"
+	@echo "... twoArrayTest"
+	@echo "... whileTest"
+	@echo "... FenWenJian.o"
+	@echo "... FenWenJian.i"
+	@echo "... FenWenJian.s"
+	@echo "... FunctionDeclarationTest.o"
+	@echo "... FunctionDeclarationTest.i"
+	@echo "... FunctionDeclarationTest.s"
+	@echo "... PointerTest.o"
+	@echo "... PointerTest.i"
+	@echo "... PointerTest.s"
+	@echo "... arrayTest.o"
+	@echo "... arrayTest.i"
+	@echo "... arrayTest.s"
+	@echo "... assignmentTest.o"
+	@echo "... assignmentTest.i"
+	@echo "... assignmentTest.s"
 	@echo "... boolTest.o"
 	@echo "... boolTest.i"
 	@echo "... boolTest.s"
+	@echo "... breakTest.o"
+	@echo "... breakTest.i"
+	@echo "... breakTest.s"
+	@echo "... bubbleSortTest.o"
+	@echo "... bubbleSortTest.i"
+	@echo "... bubbleSortTest.s"
 	@echo "... charTest.o"
 	@echo "... charTest.i"
 	@echo "... charTest.s"
+	@echo "... chooseTest.o"
+	@echo "... chooseTest.i"
+	@echo "... chooseTest.s"
 	@echo "... cinTest.o"
 	@echo "... cinTest.i"
 	@echo "... cinTest.s"
+	@echo "... compareTest.o"
+	@echo "... compareTest.i"
+	@echo "... compareTest.s"
+	@echo "... daffodilsTest.o"
+	@echo "... daffodilsTest.i"
+	@echo "... daffodilsTest.s"
+	@echo "... doWhileTest.o"
+	@echo "... doWhileTest.i"
+	@echo "... doWhileTest.s"
 	@echo "... escapeTest.o"
 	@echo "... escapeTest.i"
 	@echo "... escapeTest.s"
+	@echo "... forTest.o"
+	@echo "... forTest.i"
+	@echo "... forTest.s"
+	@echo "... functionTest.o"
+	@echo "... functionTest.i"
+	@echo "... functionTest.s"
+	@echo "... gotoTest.o"
+	@echo "... gotoTest.i"
+	@echo "... gotoTest.s"
+	@echo "... logicTest.o"
+	@echo "... logicTest.i"
+	@echo "... logicTest.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... operationTest.o"
 	@echo "... operationTest.i"
 	@echo "... operationTest.s"
+	@echo "... pigTest.o"
+	@echo "... pigTest.i"
+	@echo "... pigTest.s"
 	@echo "... stringTest.o"
 	@echo "... stringTest.i"
 	@echo "... stringTest.s"
+	@echo "... switchTest.o"
+	@echo "... switchTest.i"
+	@echo "... switchTest.s"
+	@echo "... ternaryOperationTest.o"
+	@echo "... ternaryOperationTest.i"
+	@echo "... ternaryOperationTest.s"
+	@echo "... twoArrayTest.o"
+	@echo "... twoArrayTest.i"
+	@echo "... twoArrayTest.s"
+	@echo "... whileTest.o"
+	@echo "... whileTest.i"
+	@echo "... whileTest.s"
 .PHONY : help
 
 

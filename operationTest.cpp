@@ -3,7 +3,7 @@
 //运算符学习
 #include "iostream"
 using namespace std;
-int main(){
+int main1(){
     //加减乘除运算
     int i = 12;
     int j = 10;
