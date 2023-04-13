@@ -130,6 +130,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named FandAandPTest
+
+# Build rule for target.
+FandAandPTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FandAandPTest
+.PHONY : FandAandPTest
+
+# fast build rule for target.
+FandAandPTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FandAandPTest.dir/build.make CMakeFiles/FandAandPTest.dir/build
+.PHONY : FandAandPTest/fast
+
+#=============================================================================
+# Target rules for targets named FandPTest
+
+# Build rule for target.
+FandPTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FandPTest
+.PHONY : FandPTest
+
+# fast build rule for target.
+FandPTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FandPTest.dir/build.make CMakeFiles/FandPTest.dir/build
+.PHONY : FandPTest/fast
+
+#=============================================================================
+# Target rules for targets named AandPTest
+
+# Build rule for target.
+AandPTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AandPTest
+.PHONY : AandPTest
+
+# fast build rule for target.
+AandPTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/build
+.PHONY : AandPTest/fast
+
+#=============================================================================
+# Target rules for targets named ConstPointTest
+
+# Build rule for target.
+ConstPointTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ConstPointTest
+.PHONY : ConstPointTest
+
+# fast build rule for target.
+ConstPointTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstPointTest.dir/build.make CMakeFiles/ConstPointTest.dir/build
+.PHONY : ConstPointTest/fast
+
+#=============================================================================
+# Target rules for targets named NullPointTest
+
+# Build rule for target.
+NullPointTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NullPointTest
+.PHONY : NullPointTest
+
+# fast build rule for target.
+NullPointTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NullPointTest.dir/build.make CMakeFiles/NullPointTest.dir/build
+.PHONY : NullPointTest/fast
+
+#=============================================================================
 # Target rules for targets named PointerTest
 
 # Build rule for target.
@@ -351,6 +416,19 @@ chooseTest/fast:
 .PHONY : chooseTest/fast
 
 #=============================================================================
+# Target rules for targets named StructArrayTest
+
+# Build rule for target.
+StructArrayTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StructArrayTest
+.PHONY : StructArrayTest
+
+# fast build rule for target.
+StructArrayTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructArrayTest.dir/build.make CMakeFiles/StructArrayTest.dir/build
+.PHONY : StructArrayTest/fast
+
+#=============================================================================
 # Target rules for targets named functionTest
 
 # Build rule for target.
@@ -480,6 +558,114 @@ charTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charTest.dir/build.make CMakeFiles/charTest.dir/build
 .PHONY : charTest/fast
 
+AandPTest.o: AandPTest.cpp.o
+
+.PHONY : AandPTest.o
+
+# target to build an object file
+AandPTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/AandPTest.cpp.o
+.PHONY : AandPTest.cpp.o
+
+AandPTest.i: AandPTest.cpp.i
+
+.PHONY : AandPTest.i
+
+# target to preprocess a source file
+AandPTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/AandPTest.cpp.i
+.PHONY : AandPTest.cpp.i
+
+AandPTest.s: AandPTest.cpp.s
+
+.PHONY : AandPTest.s
+
+# target to generate assembly for a file
+AandPTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/AandPTest.cpp.s
+.PHONY : AandPTest.cpp.s
+
+ConstPointTest.o: ConstPointTest.cpp.o
+
+.PHONY : ConstPointTest.o
+
+# target to build an object file
+ConstPointTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstPointTest.dir/build.make CMakeFiles/ConstPointTest.dir/ConstPointTest.cpp.o
+.PHONY : ConstPointTest.cpp.o
+
+ConstPointTest.i: ConstPointTest.cpp.i
+
+.PHONY : ConstPointTest.i
+
+# target to preprocess a source file
+ConstPointTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstPointTest.dir/build.make CMakeFiles/ConstPointTest.dir/ConstPointTest.cpp.i
+.PHONY : ConstPointTest.cpp.i
+
+ConstPointTest.s: ConstPointTest.cpp.s
+
+.PHONY : ConstPointTest.s
+
+# target to generate assembly for a file
+ConstPointTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstPointTest.dir/build.make CMakeFiles/ConstPointTest.dir/ConstPointTest.cpp.s
+.PHONY : ConstPointTest.cpp.s
+
+FandAandPTest.o: FandAandPTest.cpp.o
+
+.PHONY : FandAandPTest.o
+
+# target to build an object file
+FandAandPTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FandAandPTest.dir/build.make CMakeFiles/FandAandPTest.dir/FandAandPTest.cpp.o
+.PHONY : FandAandPTest.cpp.o
+
+FandAandPTest.i: FandAandPTest.cpp.i
+
+.PHONY : FandAandPTest.i
+
+# target to preprocess a source file
+FandAandPTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FandAandPTest.dir/build.make CMakeFiles/FandAandPTest.dir/FandAandPTest.cpp.i
+.PHONY : FandAandPTest.cpp.i
+
+FandAandPTest.s: FandAandPTest.cpp.s
+
+.PHONY : FandAandPTest.s
+
+# target to generate assembly for a file
+FandAandPTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FandAandPTest.dir/build.make CMakeFiles/FandAandPTest.dir/FandAandPTest.cpp.s
+.PHONY : FandAandPTest.cpp.s
+
+FandPTest.o: FandPTest.cpp.o
+
+.PHONY : FandPTest.o
+
+# target to build an object file
+FandPTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FandPTest.dir/build.make CMakeFiles/FandPTest.dir/FandPTest.cpp.o
+.PHONY : FandPTest.cpp.o
+
+FandPTest.i: FandPTest.cpp.i
+
+.PHONY : FandPTest.i
+
+# target to preprocess a source file
+FandPTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FandPTest.dir/build.make CMakeFiles/FandPTest.dir/FandPTest.cpp.i
+.PHONY : FandPTest.cpp.i
+
+FandPTest.s: FandPTest.cpp.s
+
+.PHONY : FandPTest.s
+
+# target to generate assembly for a file
+FandPTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FandPTest.dir/build.make CMakeFiles/FandPTest.dir/FandPTest.cpp.s
+.PHONY : FandPTest.cpp.s
+
 FenWenJian.o: FenWenJian.cpp.o
 
 .PHONY : FenWenJian.o
@@ -534,6 +720,33 @@ FunctionDeclarationTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionDeclarationTest.dir/build.make CMakeFiles/FunctionDeclarationTest.dir/FunctionDeclarationTest.cpp.s
 .PHONY : FunctionDeclarationTest.cpp.s
 
+NullPointTest.o: NullPointTest.cpp.o
+
+.PHONY : NullPointTest.o
+
+# target to build an object file
+NullPointTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NullPointTest.dir/build.make CMakeFiles/NullPointTest.dir/NullPointTest.cpp.o
+.PHONY : NullPointTest.cpp.o
+
+NullPointTest.i: NullPointTest.cpp.i
+
+.PHONY : NullPointTest.i
+
+# target to preprocess a source file
+NullPointTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NullPointTest.dir/build.make CMakeFiles/NullPointTest.dir/NullPointTest.cpp.i
+.PHONY : NullPointTest.cpp.i
+
+NullPointTest.s: NullPointTest.cpp.s
+
+.PHONY : NullPointTest.s
+
+# target to generate assembly for a file
+NullPointTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NullPointTest.dir/build.make CMakeFiles/NullPointTest.dir/NullPointTest.cpp.s
+.PHONY : NullPointTest.cpp.s
+
 PointerTest.o: PointerTest.cpp.o
 
 .PHONY : PointerTest.o
@@ -560,6 +773,90 @@ PointerTest.s: PointerTest.cpp.s
 PointerTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PointerTest.dir/build.make CMakeFiles/PointerTest.dir/PointerTest.cpp.s
 .PHONY : PointerTest.cpp.s
+
+StructArrayTest.o: StructArrayTest.cpp.o
+
+.PHONY : StructArrayTest.o
+
+# target to build an object file
+StructArrayTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructArrayTest.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructArrayTest.dir/build.make CMakeFiles/StructArrayTest.dir/StructArrayTest.cpp.o
+.PHONY : StructArrayTest.cpp.o
+
+StructArrayTest.i: StructArrayTest.cpp.i
+
+.PHONY : StructArrayTest.i
+
+# target to preprocess a source file
+StructArrayTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructArrayTest.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructArrayTest.dir/build.make CMakeFiles/StructArrayTest.dir/StructArrayTest.cpp.i
+.PHONY : StructArrayTest.cpp.i
+
+StructArrayTest.s: StructArrayTest.cpp.s
+
+.PHONY : StructArrayTest.s
+
+# target to generate assembly for a file
+StructArrayTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructArrayTest.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructArrayTest.dir/build.make CMakeFiles/StructArrayTest.dir/StructArrayTest.cpp.s
+.PHONY : StructArrayTest.cpp.s
+
+StructPointTest.o: StructPointTest.cpp.o
+
+.PHONY : StructPointTest.o
+
+# target to build an object file
+StructPointTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructPointTest.cpp.o
+.PHONY : StructPointTest.cpp.o
+
+StructPointTest.i: StructPointTest.cpp.i
+
+.PHONY : StructPointTest.i
+
+# target to preprocess a source file
+StructPointTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructPointTest.cpp.i
+.PHONY : StructPointTest.cpp.i
+
+StructPointTest.s: StructPointTest.cpp.s
+
+.PHONY : StructPointTest.s
+
+# target to generate assembly for a file
+StructPointTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructPointTest.cpp.s
+.PHONY : StructPointTest.cpp.s
+
+StructTest.o: StructTest.cpp.o
+
+.PHONY : StructTest.o
+
+# target to build an object file
+StructTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructTest.cpp.o
+.PHONY : StructTest.cpp.o
+
+StructTest.i: StructTest.cpp.i
+
+.PHONY : StructTest.i
+
+# target to preprocess a source file
+StructTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructTest.cpp.i
+.PHONY : StructTest.cpp.i
+
+StructTest.s: StructTest.cpp.s
+
+.PHONY : StructTest.s
+
+# target to generate assembly for a file
+StructTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructTest.cpp.s
+.PHONY : StructTest.cpp.s
 
 arrayTest.o: arrayTest.cpp.o
 
@@ -1217,10 +1514,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... AandPTest"
+	@echo "... ConstPointTest"
+	@echo "... FandAandPTest"
+	@echo "... FandPTest"
 	@echo "... FenWenJian"
 	@echo "... FunctionDeclarationTest"
 	@echo "... MyTest"
+	@echo "... NullPointTest"
 	@echo "... PointerTest"
+	@echo "... StructArrayTest"
 	@echo "... arrayTest"
 	@echo "... assignmentTest"
 	@echo "... boolTest"
@@ -1244,15 +1547,39 @@ help:
 	@echo "... ternaryOperationTest"
 	@echo "... twoArrayTest"
 	@echo "... whileTest"
+	@echo "... AandPTest.o"
+	@echo "... AandPTest.i"
+	@echo "... AandPTest.s"
+	@echo "... ConstPointTest.o"
+	@echo "... ConstPointTest.i"
+	@echo "... ConstPointTest.s"
+	@echo "... FandAandPTest.o"
+	@echo "... FandAandPTest.i"
+	@echo "... FandAandPTest.s"
+	@echo "... FandPTest.o"
+	@echo "... FandPTest.i"
+	@echo "... FandPTest.s"
 	@echo "... FenWenJian.o"
 	@echo "... FenWenJian.i"
 	@echo "... FenWenJian.s"
 	@echo "... FunctionDeclarationTest.o"
 	@echo "... FunctionDeclarationTest.i"
 	@echo "... FunctionDeclarationTest.s"
+	@echo "... NullPointTest.o"
+	@echo "... NullPointTest.i"
+	@echo "... NullPointTest.s"
 	@echo "... PointerTest.o"
 	@echo "... PointerTest.i"
 	@echo "... PointerTest.s"
+	@echo "... StructArrayTest.o"
+	@echo "... StructArrayTest.i"
+	@echo "... StructArrayTest.s"
+	@echo "... StructPointTest.o"
+	@echo "... StructPointTest.i"
+	@echo "... StructPointTest.s"
+	@echo "... StructTest.o"
+	@echo "... StructTest.i"
+	@echo "... StructTest.s"
 	@echo "... arrayTest.o"
 	@echo "... arrayTest.i"
 	@echo "... arrayTest.s"

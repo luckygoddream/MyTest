@@ -47,6 +47,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/FandAandPTest.dir/DependInfo.cmake"
+  "CMakeFiles/FandPTest.dir/DependInfo.cmake"
+  "CMakeFiles/AandPTest.dir/DependInfo.cmake"
+  "CMakeFiles/ConstPointTest.dir/DependInfo.cmake"
+  "CMakeFiles/NullPointTest.dir/DependInfo.cmake"
   "CMakeFiles/PointerTest.dir/DependInfo.cmake"
   "CMakeFiles/FenWenJian.dir/DependInfo.cmake"
   "CMakeFiles/FunctionDeclarationTest.dir/DependInfo.cmake"
@@ -64,6 +69,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ternaryOperationTest.dir/DependInfo.cmake"
   "CMakeFiles/logicTest.dir/DependInfo.cmake"
   "CMakeFiles/chooseTest.dir/DependInfo.cmake"
+  "CMakeFiles/StructArrayTest.dir/DependInfo.cmake"
   "CMakeFiles/functionTest.dir/DependInfo.cmake"
   "CMakeFiles/compareTest.dir/DependInfo.cmake"
   "CMakeFiles/assignmentTest.dir/DependInfo.cmake"

@@ -1,4 +1,9 @@
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/FandAandPTest.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/FandPTest.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/AandPTest.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/ConstPointTest.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/NullPointTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/PointerTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/FenWenJian.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/FunctionDeclarationTest.dir
@@ -16,6 +21,7 @@
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/ternaryOperationTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/logicTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/chooseTest.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/StructArrayTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/functionTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/compareTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/assignmentTest.dir
