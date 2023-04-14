@@ -32,4 +32,5 @@
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/stringTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/pigTest.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/TeacherAndStudentTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/charTest.dir

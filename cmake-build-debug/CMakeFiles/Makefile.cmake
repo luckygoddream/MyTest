@@ -79,5 +79,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/boolTest.dir/DependInfo.cmake"
   "CMakeFiles/stringTest.dir/DependInfo.cmake"
   "CMakeFiles/pigTest.dir/DependInfo.cmake"
+  "CMakeFiles/TeacherAndStudentTest.dir/DependInfo.cmake"
   "CMakeFiles/charTest.dir/DependInfo.cmake"
   )

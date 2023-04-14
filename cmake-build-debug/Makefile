@@ -546,6 +546,19 @@ pigTest/fast:
 .PHONY : pigTest/fast
 
 #=============================================================================
+# Target rules for targets named TeacherAndStudentTest
+
+# Build rule for target.
+TeacherAndStudentTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TeacherAndStudentTest
+.PHONY : TeacherAndStudentTest
+
+# fast build rule for target.
+TeacherAndStudentTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeacherAndStudentTest.dir/build.make CMakeFiles/TeacherAndStudentTest.dir/build
+.PHONY : TeacherAndStudentTest/fast
+
+#=============================================================================
 # Target rules for targets named charTest
 
 # Build rule for target.
@@ -720,6 +733,33 @@ FunctionDeclarationTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionDeclarationTest.dir/build.make CMakeFiles/FunctionDeclarationTest.dir/FunctionDeclarationTest.cpp.s
 .PHONY : FunctionDeclarationTest.cpp.s
 
+HeroTest.o: HeroTest.cpp.o
+
+.PHONY : HeroTest.o
+
+# target to build an object file
+HeroTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/HeroTest.cpp.o
+.PHONY : HeroTest.cpp.o
+
+HeroTest.i: HeroTest.cpp.i
+
+.PHONY : HeroTest.i
+
+# target to preprocess a source file
+HeroTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/HeroTest.cpp.i
+.PHONY : HeroTest.cpp.i
+
+HeroTest.s: HeroTest.cpp.s
+
+.PHONY : HeroTest.s
+
+# target to generate assembly for a file
+HeroTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/HeroTest.cpp.s
+.PHONY : HeroTest.cpp.s
+
 NullPointTest.o: NullPointTest.cpp.o
 
 .PHONY : NullPointTest.o
@@ -774,6 +814,33 @@ PointerTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PointerTest.dir/build.make CMakeFiles/PointerTest.dir/PointerTest.cpp.s
 .PHONY : PointerTest.cpp.s
 
+StructAndStructTest.o: StructAndStructTest.cpp.o
+
+.PHONY : StructAndStructTest.o
+
+# target to build an object file
+StructAndStructTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructAndStructTest.cpp.o
+.PHONY : StructAndStructTest.cpp.o
+
+StructAndStructTest.i: StructAndStructTest.cpp.i
+
+.PHONY : StructAndStructTest.i
+
+# target to preprocess a source file
+StructAndStructTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructAndStructTest.cpp.i
+.PHONY : StructAndStructTest.cpp.i
+
+StructAndStructTest.s: StructAndStructTest.cpp.s
+
+.PHONY : StructAndStructTest.s
+
+# target to generate assembly for a file
+StructAndStructTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructAndStructTest.cpp.s
+.PHONY : StructAndStructTest.cpp.s
+
 StructArrayTest.o: StructArrayTest.cpp.o
 
 .PHONY : StructArrayTest.o
@@ -803,6 +870,60 @@ StructArrayTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructArrayTest.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructArrayTest.dir/build.make CMakeFiles/StructArrayTest.dir/StructArrayTest.cpp.s
 .PHONY : StructArrayTest.cpp.s
+
+StructConstTest.o: StructConstTest.cpp.o
+
+.PHONY : StructConstTest.o
+
+# target to build an object file
+StructConstTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructConstTest.cpp.o
+.PHONY : StructConstTest.cpp.o
+
+StructConstTest.i: StructConstTest.cpp.i
+
+.PHONY : StructConstTest.i
+
+# target to preprocess a source file
+StructConstTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructConstTest.cpp.i
+.PHONY : StructConstTest.cpp.i
+
+StructConstTest.s: StructConstTest.cpp.s
+
+.PHONY : StructConstTest.s
+
+# target to generate assembly for a file
+StructConstTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructConstTest.cpp.s
+.PHONY : StructConstTest.cpp.s
+
+StructParamTest.o: StructParamTest.cpp.o
+
+.PHONY : StructParamTest.o
+
+# target to build an object file
+StructParamTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructParamTest.cpp.o
+.PHONY : StructParamTest.cpp.o
+
+StructParamTest.i: StructParamTest.cpp.i
+
+.PHONY : StructParamTest.i
+
+# target to preprocess a source file
+StructParamTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructParamTest.cpp.i
+.PHONY : StructParamTest.cpp.i
+
+StructParamTest.s: StructParamTest.cpp.s
+
+.PHONY : StructParamTest.s
+
+# target to generate assembly for a file
+StructParamTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructParamTest.cpp.s
+.PHONY : StructParamTest.cpp.s
 
 StructPointTest.o: StructPointTest.cpp.o
 
@@ -857,6 +978,36 @@ StructTest.s: StructTest.cpp.s
 StructTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructTest.cpp.s
 .PHONY : StructTest.cpp.s
+
+TeacherAndStudentTest.o: TeacherAndStudentTest.cpp.o
+
+.PHONY : TeacherAndStudentTest.o
+
+# target to build an object file
+TeacherAndStudentTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/TeacherAndStudentTest.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeacherAndStudentTest.dir/build.make CMakeFiles/TeacherAndStudentTest.dir/TeacherAndStudentTest.cpp.o
+.PHONY : TeacherAndStudentTest.cpp.o
+
+TeacherAndStudentTest.i: TeacherAndStudentTest.cpp.i
+
+.PHONY : TeacherAndStudentTest.i
+
+# target to preprocess a source file
+TeacherAndStudentTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/TeacherAndStudentTest.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeacherAndStudentTest.dir/build.make CMakeFiles/TeacherAndStudentTest.dir/TeacherAndStudentTest.cpp.i
+.PHONY : TeacherAndStudentTest.cpp.i
+
+TeacherAndStudentTest.s: TeacherAndStudentTest.cpp.s
+
+.PHONY : TeacherAndStudentTest.s
+
+# target to generate assembly for a file
+TeacherAndStudentTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/TeacherAndStudentTest.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeacherAndStudentTest.dir/build.make CMakeFiles/TeacherAndStudentTest.dir/TeacherAndStudentTest.cpp.s
+.PHONY : TeacherAndStudentTest.cpp.s
 
 arrayTest.o: arrayTest.cpp.o
 
@@ -1524,6 +1675,7 @@ help:
 	@echo "... NullPointTest"
 	@echo "... PointerTest"
 	@echo "... StructArrayTest"
+	@echo "... TeacherAndStudentTest"
 	@echo "... arrayTest"
 	@echo "... assignmentTest"
 	@echo "... boolTest"
@@ -1565,21 +1717,36 @@ help:
 	@echo "... FunctionDeclarationTest.o"
 	@echo "... FunctionDeclarationTest.i"
 	@echo "... FunctionDeclarationTest.s"
+	@echo "... HeroTest.o"
+	@echo "... HeroTest.i"
+	@echo "... HeroTest.s"
 	@echo "... NullPointTest.o"
 	@echo "... NullPointTest.i"
 	@echo "... NullPointTest.s"
 	@echo "... PointerTest.o"
 	@echo "... PointerTest.i"
 	@echo "... PointerTest.s"
+	@echo "... StructAndStructTest.o"
+	@echo "... StructAndStructTest.i"
+	@echo "... StructAndStructTest.s"
 	@echo "... StructArrayTest.o"
 	@echo "... StructArrayTest.i"
 	@echo "... StructArrayTest.s"
+	@echo "... StructConstTest.o"
+	@echo "... StructConstTest.i"
+	@echo "... StructConstTest.s"
+	@echo "... StructParamTest.o"
+	@echo "... StructParamTest.i"
+	@echo "... StructParamTest.s"
 	@echo "... StructPointTest.o"
 	@echo "... StructPointTest.i"
 	@echo "... StructPointTest.s"
 	@echo "... StructTest.o"
 	@echo "... StructTest.i"
 	@echo "... StructTest.s"
+	@echo "... TeacherAndStudentTest.o"
+	@echo "... TeacherAndStudentTest.i"
+	@echo "... TeacherAndStudentTest.s"
 	@echo "... arrayTest.o"
 	@echo "... arrayTest.i"
 	@echo "... arrayTest.s"
