@@ -156,6 +156,19 @@ FandPTest/fast:
 .PHONY : FandPTest/fast
 
 #=============================================================================
+# Target rules for targets named ReferenceTest
+
+# Build rule for target.
+ReferenceTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ReferenceTest
+.PHONY : ReferenceTest
+
+# fast build rule for target.
+ReferenceTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReferenceTest.dir/build.make CMakeFiles/ReferenceTest.dir/build
+.PHONY : ReferenceTest/fast
+
+#=============================================================================
 # Target rules for targets named AandPTest
 
 # Build rule for target.
@@ -733,6 +746,60 @@ FunctionDeclarationTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionDeclarationTest.dir/build.make CMakeFiles/FunctionDeclarationTest.dir/FunctionDeclarationTest.cpp.s
 .PHONY : FunctionDeclarationTest.cpp.s
 
+GlobalTest.o: GlobalTest.cpp.o
+
+.PHONY : GlobalTest.o
+
+# target to build an object file
+GlobalTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/GlobalTest.cpp.o
+.PHONY : GlobalTest.cpp.o
+
+GlobalTest.i: GlobalTest.cpp.i
+
+.PHONY : GlobalTest.i
+
+# target to preprocess a source file
+GlobalTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/GlobalTest.cpp.i
+.PHONY : GlobalTest.cpp.i
+
+GlobalTest.s: GlobalTest.cpp.s
+
+.PHONY : GlobalTest.s
+
+# target to generate assembly for a file
+GlobalTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/GlobalTest.cpp.s
+.PHONY : GlobalTest.cpp.s
+
+HeapTest.o: HeapTest.cpp.o
+
+.PHONY : HeapTest.o
+
+# target to build an object file
+HeapTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/HeapTest.cpp.o
+.PHONY : HeapTest.cpp.o
+
+HeapTest.i: HeapTest.cpp.i
+
+.PHONY : HeapTest.i
+
+# target to preprocess a source file
+HeapTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/HeapTest.cpp.i
+.PHONY : HeapTest.cpp.i
+
+HeapTest.s: HeapTest.cpp.s
+
+.PHONY : HeapTest.s
+
+# target to generate assembly for a file
+HeapTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/HeapTest.cpp.s
+.PHONY : HeapTest.cpp.s
+
 HeroTest.o: HeroTest.cpp.o
 
 .PHONY : HeroTest.o
@@ -759,6 +826,33 @@ HeroTest.s: HeroTest.cpp.s
 HeroTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/HeroTest.cpp.s
 .PHONY : HeroTest.cpp.s
+
+NewTest.o: NewTest.cpp.o
+
+.PHONY : NewTest.o
+
+# target to build an object file
+NewTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/NewTest.cpp.o
+.PHONY : NewTest.cpp.o
+
+NewTest.i: NewTest.cpp.i
+
+.PHONY : NewTest.i
+
+# target to preprocess a source file
+NewTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/NewTest.cpp.i
+.PHONY : NewTest.cpp.i
+
+NewTest.s: NewTest.cpp.s
+
+.PHONY : NewTest.s
+
+# target to generate assembly for a file
+NewTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/NewTest.cpp.s
+.PHONY : NewTest.cpp.s
 
 NullPointTest.o: NullPointTest.cpp.o
 
@@ -813,6 +907,60 @@ PointerTest.s: PointerTest.cpp.s
 PointerTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PointerTest.dir/build.make CMakeFiles/PointerTest.dir/PointerTest.cpp.s
 .PHONY : PointerTest.cpp.s
+
+ReferenceTest.o: ReferenceTest.cpp.o
+
+.PHONY : ReferenceTest.o
+
+# target to build an object file
+ReferenceTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReferenceTest.dir/build.make CMakeFiles/ReferenceTest.dir/ReferenceTest.cpp.o
+.PHONY : ReferenceTest.cpp.o
+
+ReferenceTest.i: ReferenceTest.cpp.i
+
+.PHONY : ReferenceTest.i
+
+# target to preprocess a source file
+ReferenceTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReferenceTest.dir/build.make CMakeFiles/ReferenceTest.dir/ReferenceTest.cpp.i
+.PHONY : ReferenceTest.cpp.i
+
+ReferenceTest.s: ReferenceTest.cpp.s
+
+.PHONY : ReferenceTest.s
+
+# target to generate assembly for a file
+ReferenceTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReferenceTest.dir/build.make CMakeFiles/ReferenceTest.dir/ReferenceTest.cpp.s
+.PHONY : ReferenceTest.cpp.s
+
+StackTest.o: StackTest.cpp.o
+
+.PHONY : StackTest.o
+
+# target to build an object file
+StackTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StackTest.cpp.o
+.PHONY : StackTest.cpp.o
+
+StackTest.i: StackTest.cpp.i
+
+.PHONY : StackTest.i
+
+# target to preprocess a source file
+StackTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StackTest.cpp.i
+.PHONY : StackTest.cpp.i
+
+StackTest.s: StackTest.cpp.s
+
+.PHONY : StackTest.s
+
+# target to generate assembly for a file
+StackTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StackTest.cpp.s
+.PHONY : StackTest.cpp.s
 
 StructAndStructTest.o: StructAndStructTest.cpp.o
 
@@ -1674,6 +1822,7 @@ help:
 	@echo "... MyTest"
 	@echo "... NullPointTest"
 	@echo "... PointerTest"
+	@echo "... ReferenceTest"
 	@echo "... StructArrayTest"
 	@echo "... TeacherAndStudentTest"
 	@echo "... arrayTest"
@@ -1717,15 +1866,30 @@ help:
 	@echo "... FunctionDeclarationTest.o"
 	@echo "... FunctionDeclarationTest.i"
 	@echo "... FunctionDeclarationTest.s"
+	@echo "... GlobalTest.o"
+	@echo "... GlobalTest.i"
+	@echo "... GlobalTest.s"
+	@echo "... HeapTest.o"
+	@echo "... HeapTest.i"
+	@echo "... HeapTest.s"
 	@echo "... HeroTest.o"
 	@echo "... HeroTest.i"
 	@echo "... HeroTest.s"
+	@echo "... NewTest.o"
+	@echo "... NewTest.i"
+	@echo "... NewTest.s"
 	@echo "... NullPointTest.o"
 	@echo "... NullPointTest.i"
 	@echo "... NullPointTest.s"
 	@echo "... PointerTest.o"
 	@echo "... PointerTest.i"
 	@echo "... PointerTest.s"
+	@echo "... ReferenceTest.o"
+	@echo "... ReferenceTest.i"
+	@echo "... ReferenceTest.s"
+	@echo "... StackTest.o"
+	@echo "... StackTest.i"
+	@echo "... StackTest.s"
 	@echo "... StructAndStructTest.o"
 	@echo "... StructAndStructTest.i"
 	@echo "... StructAndStructTest.s"

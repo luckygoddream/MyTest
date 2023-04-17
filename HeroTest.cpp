@@ -24,7 +24,7 @@ void bubble(int len ,Hero hero[]){
         cout << hero[i].age << endl;
     }
 }
-int main(){
+int mainHero(){
 
     Hero hero[5] = {
             {"gy",15,1},
