@@ -908,6 +908,60 @@ PointerTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PointerTest.dir/build.make CMakeFiles/PointerTest.dir/PointerTest.cpp.s
 .PHONY : PointerTest.cpp.s
 
+ReferenceConstTest.o: ReferenceConstTest.cpp.o
+
+.PHONY : ReferenceConstTest.o
+
+# target to build an object file
+ReferenceConstTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/ReferenceConstTest.cpp.o
+.PHONY : ReferenceConstTest.cpp.o
+
+ReferenceConstTest.i: ReferenceConstTest.cpp.i
+
+.PHONY : ReferenceConstTest.i
+
+# target to preprocess a source file
+ReferenceConstTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/ReferenceConstTest.cpp.i
+.PHONY : ReferenceConstTest.cpp.i
+
+ReferenceConstTest.s: ReferenceConstTest.cpp.s
+
+.PHONY : ReferenceConstTest.s
+
+# target to generate assembly for a file
+ReferenceConstTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/ReferenceConstTest.cpp.s
+.PHONY : ReferenceConstTest.cpp.s
+
+ReferenceReturnTest.o: ReferenceReturnTest.cpp.o
+
+.PHONY : ReferenceReturnTest.o
+
+# target to build an object file
+ReferenceReturnTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/ReferenceReturnTest.cpp.o
+.PHONY : ReferenceReturnTest.cpp.o
+
+ReferenceReturnTest.i: ReferenceReturnTest.cpp.i
+
+.PHONY : ReferenceReturnTest.i
+
+# target to preprocess a source file
+ReferenceReturnTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/ReferenceReturnTest.cpp.i
+.PHONY : ReferenceReturnTest.cpp.i
+
+ReferenceReturnTest.s: ReferenceReturnTest.cpp.s
+
+.PHONY : ReferenceReturnTest.s
+
+# target to generate assembly for a file
+ReferenceReturnTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/ReferenceReturnTest.cpp.s
+.PHONY : ReferenceReturnTest.cpp.s
+
 ReferenceTest.o: ReferenceTest.cpp.o
 
 .PHONY : ReferenceTest.o
@@ -1884,6 +1938,12 @@ help:
 	@echo "... PointerTest.o"
 	@echo "... PointerTest.i"
 	@echo "... PointerTest.s"
+	@echo "... ReferenceConstTest.o"
+	@echo "... ReferenceConstTest.i"
+	@echo "... ReferenceConstTest.s"
+	@echo "... ReferenceReturnTest.o"
+	@echo "... ReferenceReturnTest.i"
+	@echo "... ReferenceReturnTest.s"
 	@echo "... ReferenceTest.o"
 	@echo "... ReferenceTest.i"
 	@echo "... ReferenceTest.s"

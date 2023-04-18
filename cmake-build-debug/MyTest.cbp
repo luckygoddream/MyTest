@@ -1629,6 +1629,18 @@
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/PointerTest.cpp">
 			<Option target="PointerTest"/>
 		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/ReferenceConstTest.cpp">
+			<Option target="AandPTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/ReferenceConstTest.h">
+			<Option target="AandPTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/ReferenceReturnTest.cpp">
+			<Option target="AandPTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/ReferenceReturnTest.h">
+			<Option target="AandPTest"/>
+		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/ReferenceTest.cpp">
 			<Option target="ReferenceTest"/>
 		</Unit>
