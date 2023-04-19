@@ -1,0 +1,8 @@
+//
+// Created by 焦文启 on 2023/4/19.
+//
+
+#ifndef MYTEST_ENCAPSULATIONTEST_H
+#define MYTEST_ENCAPSULATIONTEST_H
+
+#endif //MYTEST_ENCAPSULATIONTEST_H

@@ -161,7 +161,7 @@ clean: CMakeFiles/charTest.dir/clean
 CMakeFiles/FandAandPTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FandAandPTest.dir/build.make CMakeFiles/FandAandPTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FandAandPTest.dir/build.make CMakeFiles/FandAandPTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target FandAandPTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target FandAandPTest"
 .PHONY : CMakeFiles/FandAandPTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -188,7 +188,7 @@ CMakeFiles/FandAandPTest.dir/clean:
 CMakeFiles/FandPTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FandPTest.dir/build.make CMakeFiles/FandPTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FandPTest.dir/build.make CMakeFiles/FandPTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target FandPTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target FandPTest"
 .PHONY : CMakeFiles/FandPTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -215,7 +215,7 @@ CMakeFiles/FandPTest.dir/clean:
 CMakeFiles/ReferenceTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReferenceTest.dir/build.make CMakeFiles/ReferenceTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReferenceTest.dir/build.make CMakeFiles/ReferenceTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target ReferenceTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target ReferenceTest"
 .PHONY : CMakeFiles/ReferenceTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -242,12 +242,12 @@ CMakeFiles/ReferenceTest.dir/clean:
 CMakeFiles/AandPTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target AandPTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target AandPTest"
 .PHONY : CMakeFiles/AandPTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AandPTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AandPTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/AandPTest.dir/rule
@@ -269,7 +269,7 @@ CMakeFiles/AandPTest.dir/clean:
 CMakeFiles/ConstPointTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstPointTest.dir/build.make CMakeFiles/ConstPointTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstPointTest.dir/build.make CMakeFiles/ConstPointTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target ConstPointTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target ConstPointTest"
 .PHONY : CMakeFiles/ConstPointTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -296,7 +296,7 @@ CMakeFiles/ConstPointTest.dir/clean:
 CMakeFiles/NullPointTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NullPointTest.dir/build.make CMakeFiles/NullPointTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NullPointTest.dir/build.make CMakeFiles/NullPointTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target NullPointTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target NullPointTest"
 .PHONY : CMakeFiles/NullPointTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -323,7 +323,7 @@ CMakeFiles/NullPointTest.dir/clean:
 CMakeFiles/PointerTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PointerTest.dir/build.make CMakeFiles/PointerTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PointerTest.dir/build.make CMakeFiles/PointerTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target PointerTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target PointerTest"
 .PHONY : CMakeFiles/PointerTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -350,7 +350,7 @@ CMakeFiles/PointerTest.dir/clean:
 CMakeFiles/FenWenJian.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FenWenJian.dir/build.make CMakeFiles/FenWenJian.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FenWenJian.dir/build.make CMakeFiles/FenWenJian.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target FenWenJian"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target FenWenJian"
 .PHONY : CMakeFiles/FenWenJian.dir/all
 
 # Build rule for subdir invocation for target.
@@ -377,7 +377,7 @@ CMakeFiles/FenWenJian.dir/clean:
 CMakeFiles/FunctionDeclarationTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionDeclarationTest.dir/build.make CMakeFiles/FunctionDeclarationTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionDeclarationTest.dir/build.make CMakeFiles/FunctionDeclarationTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target FunctionDeclarationTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target FunctionDeclarationTest"
 .PHONY : CMakeFiles/FunctionDeclarationTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -404,7 +404,7 @@ CMakeFiles/FunctionDeclarationTest.dir/clean:
 CMakeFiles/arrayTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayTest.dir/build.make CMakeFiles/arrayTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayTest.dir/build.make CMakeFiles/arrayTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target arrayTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target arrayTest"
 .PHONY : CMakeFiles/arrayTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -431,7 +431,7 @@ CMakeFiles/arrayTest.dir/clean:
 CMakeFiles/bubbleSortTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubbleSortTest.dir/build.make CMakeFiles/bubbleSortTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bubbleSortTest.dir/build.make CMakeFiles/bubbleSortTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target bubbleSortTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target bubbleSortTest"
 .PHONY : CMakeFiles/bubbleSortTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -458,7 +458,7 @@ CMakeFiles/bubbleSortTest.dir/clean:
 CMakeFiles/daffodilsTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/daffodilsTest.dir/build.make CMakeFiles/daffodilsTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/daffodilsTest.dir/build.make CMakeFiles/daffodilsTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target daffodilsTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target daffodilsTest"
 .PHONY : CMakeFiles/daffodilsTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -485,7 +485,7 @@ CMakeFiles/daffodilsTest.dir/clean:
 CMakeFiles/gotoTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gotoTest.dir/build.make CMakeFiles/gotoTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gotoTest.dir/build.make CMakeFiles/gotoTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target gotoTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target gotoTest"
 .PHONY : CMakeFiles/gotoTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -512,7 +512,7 @@ CMakeFiles/gotoTest.dir/clean:
 CMakeFiles/breakTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakTest.dir/build.make CMakeFiles/breakTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakTest.dir/build.make CMakeFiles/breakTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target breakTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target breakTest"
 .PHONY : CMakeFiles/breakTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -539,7 +539,7 @@ CMakeFiles/breakTest.dir/clean:
 CMakeFiles/twoArrayTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/twoArrayTest.dir/build.make CMakeFiles/twoArrayTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/twoArrayTest.dir/build.make CMakeFiles/twoArrayTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=81,82 "Built target twoArrayTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=85,86 "Built target twoArrayTest"
 .PHONY : CMakeFiles/twoArrayTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -566,7 +566,7 @@ CMakeFiles/twoArrayTest.dir/clean:
 CMakeFiles/forTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forTest.dir/build.make CMakeFiles/forTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/forTest.dir/build.make CMakeFiles/forTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target forTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target forTest"
 .PHONY : CMakeFiles/forTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -593,7 +593,7 @@ CMakeFiles/forTest.dir/clean:
 CMakeFiles/MyTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTest.dir/build.make CMakeFiles/MyTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyTest.dir/build.make CMakeFiles/MyTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target MyTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target MyTest"
 .PHONY : CMakeFiles/MyTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -620,7 +620,7 @@ CMakeFiles/MyTest.dir/clean:
 CMakeFiles/escapeTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/escapeTest.dir/build.make CMakeFiles/escapeTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/escapeTest.dir/build.make CMakeFiles/escapeTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target escapeTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target escapeTest"
 .PHONY : CMakeFiles/escapeTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -647,7 +647,7 @@ CMakeFiles/escapeTest.dir/clean:
 CMakeFiles/doWhileTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/doWhileTest.dir/build.make CMakeFiles/doWhileTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/doWhileTest.dir/build.make CMakeFiles/doWhileTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target doWhileTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target doWhileTest"
 .PHONY : CMakeFiles/doWhileTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -674,7 +674,7 @@ CMakeFiles/doWhileTest.dir/clean:
 CMakeFiles/whileTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/whileTest.dir/build.make CMakeFiles/whileTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/whileTest.dir/build.make CMakeFiles/whileTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=83,84 "Built target whileTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=87,88 "Built target whileTest"
 .PHONY : CMakeFiles/whileTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -701,7 +701,7 @@ CMakeFiles/whileTest.dir/clean:
 CMakeFiles/ternaryOperationTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperationTest.dir/build.make CMakeFiles/ternaryOperationTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperationTest.dir/build.make CMakeFiles/ternaryOperationTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target ternaryOperationTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=83,84 "Built target ternaryOperationTest"
 .PHONY : CMakeFiles/ternaryOperationTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -728,7 +728,7 @@ CMakeFiles/ternaryOperationTest.dir/clean:
 CMakeFiles/logicTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/logicTest.dir/build.make CMakeFiles/logicTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/logicTest.dir/build.make CMakeFiles/logicTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target logicTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target logicTest"
 .PHONY : CMakeFiles/logicTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -755,7 +755,7 @@ CMakeFiles/logicTest.dir/clean:
 CMakeFiles/chooseTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chooseTest.dir/build.make CMakeFiles/chooseTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chooseTest.dir/build.make CMakeFiles/chooseTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target chooseTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target chooseTest"
 .PHONY : CMakeFiles/chooseTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -782,7 +782,7 @@ CMakeFiles/chooseTest.dir/clean:
 CMakeFiles/StructArrayTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructArrayTest.dir/build.make CMakeFiles/StructArrayTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructArrayTest.dir/build.make CMakeFiles/StructArrayTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target StructArrayTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target StructArrayTest"
 .PHONY : CMakeFiles/StructArrayTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -809,7 +809,7 @@ CMakeFiles/StructArrayTest.dir/clean:
 CMakeFiles/functionTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/functionTest.dir/build.make CMakeFiles/functionTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/functionTest.dir/build.make CMakeFiles/functionTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target functionTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target functionTest"
 .PHONY : CMakeFiles/functionTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -836,7 +836,7 @@ CMakeFiles/functionTest.dir/clean:
 CMakeFiles/compareTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/compareTest.dir/build.make CMakeFiles/compareTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/compareTest.dir/build.make CMakeFiles/compareTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target compareTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target compareTest"
 .PHONY : CMakeFiles/compareTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -863,7 +863,7 @@ CMakeFiles/compareTest.dir/clean:
 CMakeFiles/assignmentTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignmentTest.dir/build.make CMakeFiles/assignmentTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignmentTest.dir/build.make CMakeFiles/assignmentTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target assignmentTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target assignmentTest"
 .PHONY : CMakeFiles/assignmentTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -890,7 +890,7 @@ CMakeFiles/assignmentTest.dir/clean:
 CMakeFiles/switchTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchTest.dir/build.make CMakeFiles/switchTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchTest.dir/build.make CMakeFiles/switchTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target switchTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=81,82 "Built target switchTest"
 .PHONY : CMakeFiles/switchTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -917,7 +917,7 @@ CMakeFiles/switchTest.dir/clean:
 CMakeFiles/operationTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/operationTest.dir/build.make CMakeFiles/operationTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/operationTest.dir/build.make CMakeFiles/operationTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target operationTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target operationTest"
 .PHONY : CMakeFiles/operationTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -944,7 +944,7 @@ CMakeFiles/operationTest.dir/clean:
 CMakeFiles/cinTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cinTest.dir/build.make CMakeFiles/cinTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cinTest.dir/build.make CMakeFiles/cinTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target cinTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target cinTest"
 .PHONY : CMakeFiles/cinTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -971,7 +971,7 @@ CMakeFiles/cinTest.dir/clean:
 CMakeFiles/boolTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/boolTest.dir/build.make CMakeFiles/boolTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/boolTest.dir/build.make CMakeFiles/boolTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target boolTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target boolTest"
 .PHONY : CMakeFiles/boolTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -998,7 +998,7 @@ CMakeFiles/boolTest.dir/clean:
 CMakeFiles/stringTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringTest.dir/build.make CMakeFiles/stringTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringTest.dir/build.make CMakeFiles/stringTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target stringTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target stringTest"
 .PHONY : CMakeFiles/stringTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1025,7 +1025,7 @@ CMakeFiles/stringTest.dir/clean:
 CMakeFiles/pigTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigTest.dir/build.make CMakeFiles/pigTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pigTest.dir/build.make CMakeFiles/pigTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target pigTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target pigTest"
 .PHONY : CMakeFiles/pigTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1052,7 +1052,7 @@ CMakeFiles/pigTest.dir/clean:
 CMakeFiles/TeacherAndStudentTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeacherAndStudentTest.dir/build.make CMakeFiles/TeacherAndStudentTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeacherAndStudentTest.dir/build.make CMakeFiles/TeacherAndStudentTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target TeacherAndStudentTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target TeacherAndStudentTest"
 .PHONY : CMakeFiles/TeacherAndStudentTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1079,7 +1079,7 @@ CMakeFiles/TeacherAndStudentTest.dir/clean:
 CMakeFiles/charTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charTest.dir/build.make CMakeFiles/charTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/charTest.dir/build.make CMakeFiles/charTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target charTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target charTest"
 .PHONY : CMakeFiles/charTest.dir/all
 
 # Build rule for subdir invocation for target.

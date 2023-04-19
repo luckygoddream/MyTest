@@ -1584,6 +1584,12 @@
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/ConstPointTest.cpp">
 			<Option target="ConstPointTest"/>
 		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/EncapsulationTest.cpp">
+			<Option target="AandPTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/EncapsulationTest.h">
+			<Option target="AandPTest"/>
+		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FandAandPTest.cpp">
 			<Option target="FandAandPTest"/>
 		</Unit>
@@ -1598,6 +1604,24 @@
 		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FunctionDeclarationTest.cpp">
 			<Option target="FunctionDeclarationTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FunctionHeavyLoadTest.cpp">
+			<Option target="AandPTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FunctionHeavyLoadTest.h">
+			<Option target="AandPTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FunctionParamTest.cpp">
+			<Option target="AandPTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FunctionParamTest.h">
+			<Option target="AandPTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FunctionPlaceholderTest.cpp">
+			<Option target="AandPTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FunctionPlaceholderTest.h">
+			<Option target="AandPTest"/>
 		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/GlobalTest.cpp">
 			<Option target="AandPTest"/>

@@ -638,6 +638,33 @@ ConstPointTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstPointTest.dir/build.make CMakeFiles/ConstPointTest.dir/ConstPointTest.cpp.s
 .PHONY : ConstPointTest.cpp.s
 
+EncapsulationTest.o: EncapsulationTest.cpp.o
+
+.PHONY : EncapsulationTest.o
+
+# target to build an object file
+EncapsulationTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/EncapsulationTest.cpp.o
+.PHONY : EncapsulationTest.cpp.o
+
+EncapsulationTest.i: EncapsulationTest.cpp.i
+
+.PHONY : EncapsulationTest.i
+
+# target to preprocess a source file
+EncapsulationTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/EncapsulationTest.cpp.i
+.PHONY : EncapsulationTest.cpp.i
+
+EncapsulationTest.s: EncapsulationTest.cpp.s
+
+.PHONY : EncapsulationTest.s
+
+# target to generate assembly for a file
+EncapsulationTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/EncapsulationTest.cpp.s
+.PHONY : EncapsulationTest.cpp.s
+
 FandAandPTest.o: FandAandPTest.cpp.o
 
 .PHONY : FandAandPTest.o
@@ -745,6 +772,87 @@ FunctionDeclarationTest.s: FunctionDeclarationTest.cpp.s
 FunctionDeclarationTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionDeclarationTest.dir/build.make CMakeFiles/FunctionDeclarationTest.dir/FunctionDeclarationTest.cpp.s
 .PHONY : FunctionDeclarationTest.cpp.s
+
+FunctionHeavyLoadTest.o: FunctionHeavyLoadTest.cpp.o
+
+.PHONY : FunctionHeavyLoadTest.o
+
+# target to build an object file
+FunctionHeavyLoadTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/FunctionHeavyLoadTest.cpp.o
+.PHONY : FunctionHeavyLoadTest.cpp.o
+
+FunctionHeavyLoadTest.i: FunctionHeavyLoadTest.cpp.i
+
+.PHONY : FunctionHeavyLoadTest.i
+
+# target to preprocess a source file
+FunctionHeavyLoadTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/FunctionHeavyLoadTest.cpp.i
+.PHONY : FunctionHeavyLoadTest.cpp.i
+
+FunctionHeavyLoadTest.s: FunctionHeavyLoadTest.cpp.s
+
+.PHONY : FunctionHeavyLoadTest.s
+
+# target to generate assembly for a file
+FunctionHeavyLoadTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/FunctionHeavyLoadTest.cpp.s
+.PHONY : FunctionHeavyLoadTest.cpp.s
+
+FunctionParamTest.o: FunctionParamTest.cpp.o
+
+.PHONY : FunctionParamTest.o
+
+# target to build an object file
+FunctionParamTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/FunctionParamTest.cpp.o
+.PHONY : FunctionParamTest.cpp.o
+
+FunctionParamTest.i: FunctionParamTest.cpp.i
+
+.PHONY : FunctionParamTest.i
+
+# target to preprocess a source file
+FunctionParamTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/FunctionParamTest.cpp.i
+.PHONY : FunctionParamTest.cpp.i
+
+FunctionParamTest.s: FunctionParamTest.cpp.s
+
+.PHONY : FunctionParamTest.s
+
+# target to generate assembly for a file
+FunctionParamTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/FunctionParamTest.cpp.s
+.PHONY : FunctionParamTest.cpp.s
+
+FunctionPlaceholderTest.o: FunctionPlaceholderTest.cpp.o
+
+.PHONY : FunctionPlaceholderTest.o
+
+# target to build an object file
+FunctionPlaceholderTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/FunctionPlaceholderTest.cpp.o
+.PHONY : FunctionPlaceholderTest.cpp.o
+
+FunctionPlaceholderTest.i: FunctionPlaceholderTest.cpp.i
+
+.PHONY : FunctionPlaceholderTest.i
+
+# target to preprocess a source file
+FunctionPlaceholderTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/FunctionPlaceholderTest.cpp.i
+.PHONY : FunctionPlaceholderTest.cpp.i
+
+FunctionPlaceholderTest.s: FunctionPlaceholderTest.cpp.s
+
+.PHONY : FunctionPlaceholderTest.s
+
+# target to generate assembly for a file
+FunctionPlaceholderTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/FunctionPlaceholderTest.cpp.s
+.PHONY : FunctionPlaceholderTest.cpp.s
 
 GlobalTest.o: GlobalTest.cpp.o
 
@@ -1908,6 +2016,9 @@ help:
 	@echo "... ConstPointTest.o"
 	@echo "... ConstPointTest.i"
 	@echo "... ConstPointTest.s"
+	@echo "... EncapsulationTest.o"
+	@echo "... EncapsulationTest.i"
+	@echo "... EncapsulationTest.s"
 	@echo "... FandAandPTest.o"
 	@echo "... FandAandPTest.i"
 	@echo "... FandAandPTest.s"
@@ -1920,6 +2031,15 @@ help:
 	@echo "... FunctionDeclarationTest.o"
 	@echo "... FunctionDeclarationTest.i"
 	@echo "... FunctionDeclarationTest.s"
+	@echo "... FunctionHeavyLoadTest.o"
+	@echo "... FunctionHeavyLoadTest.i"
+	@echo "... FunctionHeavyLoadTest.s"
+	@echo "... FunctionParamTest.o"
+	@echo "... FunctionParamTest.i"
+	@echo "... FunctionParamTest.s"
+	@echo "... FunctionPlaceholderTest.o"
+	@echo "... FunctionPlaceholderTest.i"
+	@echo "... FunctionPlaceholderTest.s"
 	@echo "... GlobalTest.o"
 	@echo "... GlobalTest.i"
 	@echo "... GlobalTest.s"
