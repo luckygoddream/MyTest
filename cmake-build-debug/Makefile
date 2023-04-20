@@ -182,6 +182,19 @@ AandPTest/fast:
 .PHONY : AandPTest/fast
 
 #=============================================================================
+# Target rules for targets named StructAndClassTest
+
+# Build rule for target.
+StructAndClassTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StructAndClassTest
+.PHONY : StructAndClassTest
+
+# fast build rule for target.
+StructAndClassTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructAndClassTest.dir/build.make CMakeFiles/StructAndClassTest.dir/build
+.PHONY : StructAndClassTest/fast
+
+#=============================================================================
 # Target rules for targets named ConstPointTest
 
 # Build rule for target.
@@ -638,6 +651,33 @@ ConstPointTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstPointTest.dir/build.make CMakeFiles/ConstPointTest.dir/ConstPointTest.cpp.s
 .PHONY : ConstPointTest.cpp.s
 
+CubeTest.o: CubeTest.cpp.o
+
+.PHONY : CubeTest.o
+
+# target to build an object file
+CubeTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/CubeTest.cpp.o
+.PHONY : CubeTest.cpp.o
+
+CubeTest.i: CubeTest.cpp.i
+
+.PHONY : CubeTest.i
+
+# target to preprocess a source file
+CubeTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/CubeTest.cpp.i
+.PHONY : CubeTest.cpp.i
+
+CubeTest.s: CubeTest.cpp.s
+
+.PHONY : CubeTest.s
+
+# target to generate assembly for a file
+CubeTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/CubeTest.cpp.s
+.PHONY : CubeTest.cpp.s
+
 EncapsulationTest.o: EncapsulationTest.cpp.o
 
 .PHONY : EncapsulationTest.o
@@ -1016,6 +1056,33 @@ PointerTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PointerTest.dir/build.make CMakeFiles/PointerTest.dir/PointerTest.cpp.s
 .PHONY : PointerTest.cpp.s
 
+PrivateAttributeTest.o: PrivateAttributeTest.cpp.o
+
+.PHONY : PrivateAttributeTest.o
+
+# target to build an object file
+PrivateAttributeTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/PrivateAttributeTest.cpp.o
+.PHONY : PrivateAttributeTest.cpp.o
+
+PrivateAttributeTest.i: PrivateAttributeTest.cpp.i
+
+.PHONY : PrivateAttributeTest.i
+
+# target to preprocess a source file
+PrivateAttributeTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/PrivateAttributeTest.cpp.i
+.PHONY : PrivateAttributeTest.cpp.i
+
+PrivateAttributeTest.s: PrivateAttributeTest.cpp.s
+
+.PHONY : PrivateAttributeTest.s
+
+# target to generate assembly for a file
+PrivateAttributeTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/PrivateAttributeTest.cpp.s
+.PHONY : PrivateAttributeTest.cpp.s
+
 ReferenceConstTest.o: ReferenceConstTest.cpp.o
 
 .PHONY : ReferenceConstTest.o
@@ -1123,6 +1190,36 @@ StackTest.s: StackTest.cpp.s
 StackTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StackTest.cpp.s
 .PHONY : StackTest.cpp.s
+
+StructAndClassTest.o: StructAndClassTest.cpp.o
+
+.PHONY : StructAndClassTest.o
+
+# target to build an object file
+StructAndClassTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructAndClassTest.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructAndClassTest.dir/build.make CMakeFiles/StructAndClassTest.dir/StructAndClassTest.cpp.o
+.PHONY : StructAndClassTest.cpp.o
+
+StructAndClassTest.i: StructAndClassTest.cpp.i
+
+.PHONY : StructAndClassTest.i
+
+# target to preprocess a source file
+StructAndClassTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructAndClassTest.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructAndClassTest.dir/build.make CMakeFiles/StructAndClassTest.dir/StructAndClassTest.cpp.i
+.PHONY : StructAndClassTest.cpp.i
+
+StructAndClassTest.s: StructAndClassTest.cpp.s
+
+.PHONY : StructAndClassTest.s
+
+# target to generate assembly for a file
+StructAndClassTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructAndClassTest.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructAndClassTest.dir/build.make CMakeFiles/StructAndClassTest.dir/StructAndClassTest.cpp.s
+.PHONY : StructAndClassTest.cpp.s
 
 StructAndStructTest.o: StructAndStructTest.cpp.o
 
@@ -1985,6 +2082,7 @@ help:
 	@echo "... NullPointTest"
 	@echo "... PointerTest"
 	@echo "... ReferenceTest"
+	@echo "... StructAndClassTest"
 	@echo "... StructArrayTest"
 	@echo "... TeacherAndStudentTest"
 	@echo "... arrayTest"
@@ -2016,6 +2114,9 @@ help:
 	@echo "... ConstPointTest.o"
 	@echo "... ConstPointTest.i"
 	@echo "... ConstPointTest.s"
+	@echo "... CubeTest.o"
+	@echo "... CubeTest.i"
+	@echo "... CubeTest.s"
 	@echo "... EncapsulationTest.o"
 	@echo "... EncapsulationTest.i"
 	@echo "... EncapsulationTest.s"
@@ -2058,6 +2159,9 @@ help:
 	@echo "... PointerTest.o"
 	@echo "... PointerTest.i"
 	@echo "... PointerTest.s"
+	@echo "... PrivateAttributeTest.o"
+	@echo "... PrivateAttributeTest.i"
+	@echo "... PrivateAttributeTest.s"
 	@echo "... ReferenceConstTest.o"
 	@echo "... ReferenceConstTest.i"
 	@echo "... ReferenceConstTest.s"
@@ -2070,6 +2174,9 @@ help:
 	@echo "... StackTest.o"
 	@echo "... StackTest.i"
 	@echo "... StackTest.s"
+	@echo "... StructAndClassTest.o"
+	@echo "... StructAndClassTest.i"
+	@echo "... StructAndClassTest.s"
 	@echo "... StructAndStructTest.o"
 	@echo "... StructAndStructTest.i"
 	@echo "... StructAndStructTest.s"

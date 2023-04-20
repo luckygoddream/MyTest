@@ -203,6 +203,50 @@
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="StructAndClassTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/StructAndClassTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 StructAndClassTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StructAndClassTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/StructAndClassTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 StructAndClassTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ConstPointTest">
 				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/ConstPointTest" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
@@ -1584,6 +1628,12 @@
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/ConstPointTest.cpp">
 			<Option target="ConstPointTest"/>
 		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/CubeTest.cpp">
+			<Option target="AandPTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/CubeTest.h">
+			<Option target="AandPTest"/>
+		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/EncapsulationTest.cpp">
 			<Option target="AandPTest"/>
 		</Unit>
@@ -1653,6 +1703,12 @@
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/PointerTest.cpp">
 			<Option target="PointerTest"/>
 		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/PrivateAttributeTest.cpp">
+			<Option target="AandPTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/PrivateAttributeTest.h">
+			<Option target="AandPTest"/>
+		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/ReferenceConstTest.cpp">
 			<Option target="AandPTest"/>
 		</Unit>
@@ -1676,6 +1732,10 @@
 		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/StackTest.h">
 			<Option target="AandPTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/StructAndClassTest.cpp">
+			<Option target="AandPTest"/>
+			<Option target="StructAndClassTest"/>
 		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/StructAndStructTest.cpp">
 			<Option target="AandPTest"/>

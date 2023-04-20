@@ -51,6 +51,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/FandPTest.dir/DependInfo.cmake"
   "CMakeFiles/ReferenceTest.dir/DependInfo.cmake"
   "CMakeFiles/AandPTest.dir/DependInfo.cmake"
+  "CMakeFiles/StructAndClassTest.dir/DependInfo.cmake"
   "CMakeFiles/ConstPointTest.dir/DependInfo.cmake"
   "CMakeFiles/NullPointTest.dir/DependInfo.cmake"
   "CMakeFiles/PointerTest.dir/DependInfo.cmake"
