@@ -62,7 +62,7 @@ void callTest(){
 }
 
 
-int main(){
+int mainStructure(){
     callTest();
     return 0;
 }
