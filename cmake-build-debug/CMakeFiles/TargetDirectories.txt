@@ -22,6 +22,7 @@
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/whileTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/ternaryOperationTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/logicTest.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/StructureTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/chooseTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/StructArrayTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/functionTest.dir
@@ -33,6 +34,7 @@
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/boolTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/stringTest.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/StructureAndDestructorTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/pigTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/TeacherAndStudentTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/charTest.dir

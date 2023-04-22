@@ -429,6 +429,19 @@ logicTest/fast:
 .PHONY : logicTest/fast
 
 #=============================================================================
+# Target rules for targets named StructureTest
+
+# Build rule for target.
+StructureTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StructureTest
+.PHONY : StructureTest
+
+# fast build rule for target.
+StructureTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructureTest.dir/build.make CMakeFiles/StructureTest.dir/build
+.PHONY : StructureTest/fast
+
+#=============================================================================
 # Target rules for targets named chooseTest
 
 # Build rule for target.
@@ -557,6 +570,19 @@ stringTest: cmake_check_build_system
 stringTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringTest.dir/build.make CMakeFiles/stringTest.dir/build
 .PHONY : stringTest/fast
+
+#=============================================================================
+# Target rules for targets named StructureAndDestructorTest
+
+# Build rule for target.
+StructureAndDestructorTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StructureAndDestructorTest
+.PHONY : StructureAndDestructorTest
+
+# fast build rule for target.
+StructureAndDestructorTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructureAndDestructorTest.dir/build.make CMakeFiles/StructureAndDestructorTest.dir/build
+.PHONY : StructureAndDestructorTest/fast
 
 #=============================================================================
 # Target rules for targets named pigTest
@@ -1386,6 +1412,63 @@ StructTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructTest.cpp.s
 .PHONY : StructTest.cpp.s
 
+StructureAndDestructorTest.o: StructureAndDestructorTest.cpp.o
+
+.PHONY : StructureAndDestructorTest.o
+
+# target to build an object file
+StructureAndDestructorTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructureAndDestructorTest.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructureAndDestructorTest.dir/build.make CMakeFiles/StructureAndDestructorTest.dir/StructureAndDestructorTest.cpp.o
+.PHONY : StructureAndDestructorTest.cpp.o
+
+StructureAndDestructorTest.i: StructureAndDestructorTest.cpp.i
+
+.PHONY : StructureAndDestructorTest.i
+
+# target to preprocess a source file
+StructureAndDestructorTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructureAndDestructorTest.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructureAndDestructorTest.dir/build.make CMakeFiles/StructureAndDestructorTest.dir/StructureAndDestructorTest.cpp.i
+.PHONY : StructureAndDestructorTest.cpp.i
+
+StructureAndDestructorTest.s: StructureAndDestructorTest.cpp.s
+
+.PHONY : StructureAndDestructorTest.s
+
+# target to generate assembly for a file
+StructureAndDestructorTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StructureAndDestructorTest.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructureAndDestructorTest.dir/build.make CMakeFiles/StructureAndDestructorTest.dir/StructureAndDestructorTest.cpp.s
+.PHONY : StructureAndDestructorTest.cpp.s
+
+StructureTest.o: StructureTest.cpp.o
+
+.PHONY : StructureTest.o
+
+# target to build an object file
+StructureTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructureTest.dir/build.make CMakeFiles/StructureTest.dir/StructureTest.cpp.o
+.PHONY : StructureTest.cpp.o
+
+StructureTest.i: StructureTest.cpp.i
+
+.PHONY : StructureTest.i
+
+# target to preprocess a source file
+StructureTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructureTest.dir/build.make CMakeFiles/StructureTest.dir/StructureTest.cpp.i
+.PHONY : StructureTest.cpp.i
+
+StructureTest.s: StructureTest.cpp.s
+
+.PHONY : StructureTest.s
+
+# target to generate assembly for a file
+StructureTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StructureTest.dir/build.make CMakeFiles/StructureTest.dir/StructureTest.cpp.s
+.PHONY : StructureTest.cpp.s
+
 TeacherAndStudentTest.o: TeacherAndStudentTest.cpp.o
 
 .PHONY : TeacherAndStudentTest.o
@@ -2084,6 +2167,8 @@ help:
 	@echo "... ReferenceTest"
 	@echo "... StructAndClassTest"
 	@echo "... StructArrayTest"
+	@echo "... StructureAndDestructorTest"
+	@echo "... StructureTest"
 	@echo "... TeacherAndStudentTest"
 	@echo "... arrayTest"
 	@echo "... assignmentTest"
@@ -2195,6 +2280,12 @@ help:
 	@echo "... StructTest.o"
 	@echo "... StructTest.i"
 	@echo "... StructTest.s"
+	@echo "... StructureAndDestructorTest.o"
+	@echo "... StructureAndDestructorTest.i"
+	@echo "... StructureAndDestructorTest.s"
+	@echo "... StructureTest.o"
+	@echo "... StructureTest.i"
+	@echo "... StructureTest.s"
 	@echo "... TeacherAndStudentTest.o"
 	@echo "... TeacherAndStudentTest.i"
 	@echo "... TeacherAndStudentTest.s"
