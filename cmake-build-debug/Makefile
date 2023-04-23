@@ -130,6 +130,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named LieBiaoTest
+
+# Build rule for target.
+LieBiaoTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LieBiaoTest
+.PHONY : LieBiaoTest
+
+# fast build rule for target.
+LieBiaoTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LieBiaoTest.dir/build.make CMakeFiles/LieBiaoTest.dir/build
+.PHONY : LieBiaoTest/fast
+
+#=============================================================================
+# Target rules for targets named DeepAndShallowTest
+
+# Build rule for target.
+DeepAndShallowTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DeepAndShallowTest
+.PHONY : DeepAndShallowTest
+
+# fast build rule for target.
+DeepAndShallowTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeepAndShallowTest.dir/build.make CMakeFiles/DeepAndShallowTest.dir/build
+.PHONY : DeepAndShallowTest/fast
+
+#=============================================================================
 # Target rules for targets named FandAandPTest
 
 # Build rule for target.
@@ -221,6 +247,19 @@ NullPointTest/fast:
 .PHONY : NullPointTest/fast
 
 #=============================================================================
+# Target rules for targets named CopyFunctionTest
+
+# Build rule for target.
+CopyFunctionTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CopyFunctionTest
+.PHONY : CopyFunctionTest
+
+# fast build rule for target.
+CopyFunctionTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CopyFunctionTest.dir/build.make CMakeFiles/CopyFunctionTest.dir/build
+.PHONY : CopyFunctionTest/fast
+
+#=============================================================================
 # Target rules for targets named PointerTest
 
 # Build rule for target.
@@ -232,6 +271,19 @@ PointerTest: cmake_check_build_system
 PointerTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PointerTest.dir/build.make CMakeFiles/PointerTest.dir/build
 .PHONY : PointerTest/fast
+
+#=============================================================================
+# Target rules for targets named ConstructorTest
+
+# Build rule for target.
+ConstructorTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ConstructorTest
+.PHONY : ConstructorTest
+
+# fast build rule for target.
+ConstructorTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstructorTest.dir/build.make CMakeFiles/ConstructorTest.dir/build
+.PHONY : ConstructorTest/fast
 
 #=============================================================================
 # Target rules for targets named FenWenJian
@@ -677,6 +729,60 @@ ConstPointTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstPointTest.dir/build.make CMakeFiles/ConstPointTest.dir/ConstPointTest.cpp.s
 .PHONY : ConstPointTest.cpp.s
 
+ConstructorTest.o: ConstructorTest.cpp.o
+
+.PHONY : ConstructorTest.o
+
+# target to build an object file
+ConstructorTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstructorTest.dir/build.make CMakeFiles/ConstructorTest.dir/ConstructorTest.cpp.o
+.PHONY : ConstructorTest.cpp.o
+
+ConstructorTest.i: ConstructorTest.cpp.i
+
+.PHONY : ConstructorTest.i
+
+# target to preprocess a source file
+ConstructorTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstructorTest.dir/build.make CMakeFiles/ConstructorTest.dir/ConstructorTest.cpp.i
+.PHONY : ConstructorTest.cpp.i
+
+ConstructorTest.s: ConstructorTest.cpp.s
+
+.PHONY : ConstructorTest.s
+
+# target to generate assembly for a file
+ConstructorTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstructorTest.dir/build.make CMakeFiles/ConstructorTest.dir/ConstructorTest.cpp.s
+.PHONY : ConstructorTest.cpp.s
+
+CopyFunctionTest.o: CopyFunctionTest.cpp.o
+
+.PHONY : CopyFunctionTest.o
+
+# target to build an object file
+CopyFunctionTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CopyFunctionTest.dir/build.make CMakeFiles/CopyFunctionTest.dir/CopyFunctionTest.cpp.o
+.PHONY : CopyFunctionTest.cpp.o
+
+CopyFunctionTest.i: CopyFunctionTest.cpp.i
+
+.PHONY : CopyFunctionTest.i
+
+# target to preprocess a source file
+CopyFunctionTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CopyFunctionTest.dir/build.make CMakeFiles/CopyFunctionTest.dir/CopyFunctionTest.cpp.i
+.PHONY : CopyFunctionTest.cpp.i
+
+CopyFunctionTest.s: CopyFunctionTest.cpp.s
+
+.PHONY : CopyFunctionTest.s
+
+# target to generate assembly for a file
+CopyFunctionTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CopyFunctionTest.dir/build.make CMakeFiles/CopyFunctionTest.dir/CopyFunctionTest.cpp.s
+.PHONY : CopyFunctionTest.cpp.s
+
 CubeTest.o: CubeTest.cpp.o
 
 .PHONY : CubeTest.o
@@ -703,6 +809,33 @@ CubeTest.s: CubeTest.cpp.s
 CubeTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/CubeTest.cpp.s
 .PHONY : CubeTest.cpp.s
+
+DeepAndShallowTest.o: DeepAndShallowTest.cpp.o
+
+.PHONY : DeepAndShallowTest.o
+
+# target to build an object file
+DeepAndShallowTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeepAndShallowTest.dir/build.make CMakeFiles/DeepAndShallowTest.dir/DeepAndShallowTest.cpp.o
+.PHONY : DeepAndShallowTest.cpp.o
+
+DeepAndShallowTest.i: DeepAndShallowTest.cpp.i
+
+.PHONY : DeepAndShallowTest.i
+
+# target to preprocess a source file
+DeepAndShallowTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeepAndShallowTest.dir/build.make CMakeFiles/DeepAndShallowTest.dir/DeepAndShallowTest.cpp.i
+.PHONY : DeepAndShallowTest.cpp.i
+
+DeepAndShallowTest.s: DeepAndShallowTest.cpp.s
+
+.PHONY : DeepAndShallowTest.s
+
+# target to generate assembly for a file
+DeepAndShallowTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeepAndShallowTest.dir/build.make CMakeFiles/DeepAndShallowTest.dir/DeepAndShallowTest.cpp.s
+.PHONY : DeepAndShallowTest.cpp.s
 
 EncapsulationTest.o: EncapsulationTest.cpp.o
 
@@ -1000,6 +1133,33 @@ HeroTest.s: HeroTest.cpp.s
 HeroTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/HeroTest.cpp.s
 .PHONY : HeroTest.cpp.s
+
+LieBiaoTest.o: LieBiaoTest.cpp.o
+
+.PHONY : LieBiaoTest.o
+
+# target to build an object file
+LieBiaoTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LieBiaoTest.dir/build.make CMakeFiles/LieBiaoTest.dir/LieBiaoTest.cpp.o
+.PHONY : LieBiaoTest.cpp.o
+
+LieBiaoTest.i: LieBiaoTest.cpp.i
+
+.PHONY : LieBiaoTest.i
+
+# target to preprocess a source file
+LieBiaoTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LieBiaoTest.dir/build.make CMakeFiles/LieBiaoTest.dir/LieBiaoTest.cpp.i
+.PHONY : LieBiaoTest.cpp.i
+
+LieBiaoTest.s: LieBiaoTest.cpp.s
+
+.PHONY : LieBiaoTest.s
+
+# target to generate assembly for a file
+LieBiaoTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LieBiaoTest.dir/build.make CMakeFiles/LieBiaoTest.dir/LieBiaoTest.cpp.s
+.PHONY : LieBiaoTest.cpp.s
 
 NewTest.o: NewTest.cpp.o
 
@@ -2157,10 +2317,14 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... AandPTest"
 	@echo "... ConstPointTest"
+	@echo "... ConstructorTest"
+	@echo "... CopyFunctionTest"
+	@echo "... DeepAndShallowTest"
 	@echo "... FandAandPTest"
 	@echo "... FandPTest"
 	@echo "... FenWenJian"
 	@echo "... FunctionDeclarationTest"
+	@echo "... LieBiaoTest"
 	@echo "... MyTest"
 	@echo "... NullPointTest"
 	@echo "... PointerTest"
@@ -2199,9 +2363,18 @@ help:
 	@echo "... ConstPointTest.o"
 	@echo "... ConstPointTest.i"
 	@echo "... ConstPointTest.s"
+	@echo "... ConstructorTest.o"
+	@echo "... ConstructorTest.i"
+	@echo "... ConstructorTest.s"
+	@echo "... CopyFunctionTest.o"
+	@echo "... CopyFunctionTest.i"
+	@echo "... CopyFunctionTest.s"
 	@echo "... CubeTest.o"
 	@echo "... CubeTest.i"
 	@echo "... CubeTest.s"
+	@echo "... DeepAndShallowTest.o"
+	@echo "... DeepAndShallowTest.i"
+	@echo "... DeepAndShallowTest.s"
 	@echo "... EncapsulationTest.o"
 	@echo "... EncapsulationTest.i"
 	@echo "... EncapsulationTest.s"
@@ -2235,6 +2408,9 @@ help:
 	@echo "... HeroTest.o"
 	@echo "... HeroTest.i"
 	@echo "... HeroTest.s"
+	@echo "... LieBiaoTest.o"
+	@echo "... LieBiaoTest.i"
+	@echo "... LieBiaoTest.s"
 	@echo "... NewTest.o"
 	@echo "... NewTest.i"
 	@echo "... NewTest.s"
