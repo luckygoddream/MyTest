@@ -182,6 +182,19 @@ FandPTest/fast:
 .PHONY : FandPTest/fast
 
 #=============================================================================
+# Target rules for targets named ClassObjectTest
+
+# Build rule for target.
+ClassObjectTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ClassObjectTest
+.PHONY : ClassObjectTest
+
+# fast build rule for target.
+ClassObjectTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassObjectTest.dir/build.make CMakeFiles/ClassObjectTest.dir/build
+.PHONY : ClassObjectTest/fast
+
+#=============================================================================
 # Target rules for targets named ReferenceTest
 
 # Build rule for target.
@@ -232,6 +245,19 @@ ConstPointTest: cmake_check_build_system
 ConstPointTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstPointTest.dir/build.make CMakeFiles/ConstPointTest.dir/build
 .PHONY : ConstPointTest/fast
+
+#=============================================================================
+# Target rules for targets named StaticFunctionTest
+
+# Build rule for target.
+StaticFunctionTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StaticFunctionTest
+.PHONY : StaticFunctionTest
+
+# fast build rule for target.
+StaticFunctionTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StaticFunctionTest.dir/build.make CMakeFiles/StaticFunctionTest.dir/build
+.PHONY : StaticFunctionTest/fast
 
 #=============================================================================
 # Target rules for targets named NullPointTest
@@ -310,6 +336,19 @@ FunctionDeclarationTest: cmake_check_build_system
 FunctionDeclarationTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FunctionDeclarationTest.dir/build.make CMakeFiles/FunctionDeclarationTest.dir/build
 .PHONY : FunctionDeclarationTest/fast
+
+#=============================================================================
+# Target rules for targets named StaticMemberTest
+
+# Build rule for target.
+StaticMemberTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StaticMemberTest
+.PHONY : StaticMemberTest
+
+# fast build rule for target.
+StaticMemberTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StaticMemberTest.dir/build.make CMakeFiles/StaticMemberTest.dir/build
+.PHONY : StaticMemberTest/fast
 
 #=============================================================================
 # Target rules for targets named arrayTest
@@ -701,6 +740,33 @@ AandPTest.s: AandPTest.cpp.s
 AandPTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/AandPTest.cpp.s
 .PHONY : AandPTest.cpp.s
+
+ClassObjectTest.o: ClassObjectTest.cpp.o
+
+.PHONY : ClassObjectTest.o
+
+# target to build an object file
+ClassObjectTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassObjectTest.dir/build.make CMakeFiles/ClassObjectTest.dir/ClassObjectTest.cpp.o
+.PHONY : ClassObjectTest.cpp.o
+
+ClassObjectTest.i: ClassObjectTest.cpp.i
+
+.PHONY : ClassObjectTest.i
+
+# target to preprocess a source file
+ClassObjectTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassObjectTest.dir/build.make CMakeFiles/ClassObjectTest.dir/ClassObjectTest.cpp.i
+.PHONY : ClassObjectTest.cpp.i
+
+ClassObjectTest.s: ClassObjectTest.cpp.s
+
+.PHONY : ClassObjectTest.s
+
+# target to generate assembly for a file
+ClassObjectTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassObjectTest.dir/build.make CMakeFiles/ClassObjectTest.dir/ClassObjectTest.cpp.s
+.PHONY : ClassObjectTest.cpp.s
 
 ConstPointTest.o: ConstPointTest.cpp.o
 
@@ -1376,6 +1442,60 @@ StackTest.s: StackTest.cpp.s
 StackTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/StackTest.cpp.s
 .PHONY : StackTest.cpp.s
+
+StaticFunctionTest.o: StaticFunctionTest.cpp.o
+
+.PHONY : StaticFunctionTest.o
+
+# target to build an object file
+StaticFunctionTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StaticFunctionTest.dir/build.make CMakeFiles/StaticFunctionTest.dir/StaticFunctionTest.cpp.o
+.PHONY : StaticFunctionTest.cpp.o
+
+StaticFunctionTest.i: StaticFunctionTest.cpp.i
+
+.PHONY : StaticFunctionTest.i
+
+# target to preprocess a source file
+StaticFunctionTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StaticFunctionTest.dir/build.make CMakeFiles/StaticFunctionTest.dir/StaticFunctionTest.cpp.i
+.PHONY : StaticFunctionTest.cpp.i
+
+StaticFunctionTest.s: StaticFunctionTest.cpp.s
+
+.PHONY : StaticFunctionTest.s
+
+# target to generate assembly for a file
+StaticFunctionTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StaticFunctionTest.dir/build.make CMakeFiles/StaticFunctionTest.dir/StaticFunctionTest.cpp.s
+.PHONY : StaticFunctionTest.cpp.s
+
+StaticMemberTest.o: StaticMemberTest.cpp.o
+
+.PHONY : StaticMemberTest.o
+
+# target to build an object file
+StaticMemberTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StaticMemberTest.dir/build.make CMakeFiles/StaticMemberTest.dir/StaticMemberTest.cpp.o
+.PHONY : StaticMemberTest.cpp.o
+
+StaticMemberTest.i: StaticMemberTest.cpp.i
+
+.PHONY : StaticMemberTest.i
+
+# target to preprocess a source file
+StaticMemberTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StaticMemberTest.dir/build.make CMakeFiles/StaticMemberTest.dir/StaticMemberTest.cpp.i
+.PHONY : StaticMemberTest.cpp.i
+
+StaticMemberTest.s: StaticMemberTest.cpp.s
+
+.PHONY : StaticMemberTest.s
+
+# target to generate assembly for a file
+StaticMemberTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StaticMemberTest.dir/build.make CMakeFiles/StaticMemberTest.dir/StaticMemberTest.cpp.s
+.PHONY : StaticMemberTest.cpp.s
 
 StructAndClassTest.o: StructAndClassTest.cpp.o
 
@@ -2316,6 +2436,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... AandPTest"
+	@echo "... ClassObjectTest"
 	@echo "... ConstPointTest"
 	@echo "... ConstructorTest"
 	@echo "... CopyFunctionTest"
@@ -2329,6 +2450,8 @@ help:
 	@echo "... NullPointTest"
 	@echo "... PointerTest"
 	@echo "... ReferenceTest"
+	@echo "... StaticFunctionTest"
+	@echo "... StaticMemberTest"
 	@echo "... StructAndClassTest"
 	@echo "... StructArrayTest"
 	@echo "... StructureAndDestructorTest"
@@ -2360,6 +2483,9 @@ help:
 	@echo "... AandPTest.o"
 	@echo "... AandPTest.i"
 	@echo "... AandPTest.s"
+	@echo "... ClassObjectTest.o"
+	@echo "... ClassObjectTest.i"
+	@echo "... ClassObjectTest.s"
 	@echo "... ConstPointTest.o"
 	@echo "... ConstPointTest.i"
 	@echo "... ConstPointTest.s"
@@ -2435,6 +2561,12 @@ help:
 	@echo "... StackTest.o"
 	@echo "... StackTest.i"
 	@echo "... StackTest.s"
+	@echo "... StaticFunctionTest.o"
+	@echo "... StaticFunctionTest.i"
+	@echo "... StaticFunctionTest.s"
+	@echo "... StaticMemberTest.o"
+	@echo "... StaticMemberTest.i"
+	@echo "... StaticMemberTest.s"
 	@echo "... StructAndClassTest.o"
 	@echo "... StructAndClassTest.i"
 	@echo "... StructAndClassTest.s"

@@ -48,3 +48,7 @@ add_executable(CopyFunctionTest CopyFunctionTest.cpp)
 add_executable(ConstructorTest ConstructorTest.cpp)
 add_executable(DeepAndShallowTest DeepAndShallowTest.cpp)
 add_executable(LieBiaoTest LieBiaoTest.cpp)
+
+add_executable(ClassObjectTest ClassObjectTest.cpp)
+add_executable(StaticMemberTest StaticMemberTest.cpp)
+add_executable(StaticFunctionTest StaticFunctionTest.cpp)
