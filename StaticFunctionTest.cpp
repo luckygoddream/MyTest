@@ -29,7 +29,7 @@ void test(){
     Person::func();
     //Person::func2();//私有的类外不能访问
 }
-int main(){
+int mainstaFun(){
     test();
 
     return 0;

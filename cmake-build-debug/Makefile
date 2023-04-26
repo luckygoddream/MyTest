@@ -130,6 +130,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named NilPointTest
+
+# Build rule for target.
+NilPointTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NilPointTest
+.PHONY : NilPointTest
+
+# fast build rule for target.
+NilPointTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NilPointTest.dir/build.make CMakeFiles/NilPointTest.dir/build
+.PHONY : NilPointTest/fast
+
+#=============================================================================
+# Target rules for targets named compareTest
+
+# Build rule for target.
+compareTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compareTest
+.PHONY : compareTest
+
+# fast build rule for target.
+compareTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compareTest.dir/build.make CMakeFiles/compareTest.dir/build
+.PHONY : compareTest/fast
+
+#=============================================================================
+# Target rules for targets named breakTest
+
+# Build rule for target.
+breakTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 breakTest
+.PHONY : breakTest
+
+# fast build rule for target.
+breakTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakTest.dir/build.make CMakeFiles/breakTest.dir/build
+.PHONY : breakTest/fast
+
+#=============================================================================
 # Target rules for targets named LieBiaoTest
 
 # Build rule for target.
@@ -141,6 +180,19 @@ LieBiaoTest: cmake_check_build_system
 LieBiaoTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LieBiaoTest.dir/build.make CMakeFiles/LieBiaoTest.dir/build
 .PHONY : LieBiaoTest/fast
+
+#=============================================================================
+# Target rules for targets named ternaryOperationTest
+
+# Build rule for target.
+ternaryOperationTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ternaryOperationTest
+.PHONY : ternaryOperationTest
+
+# fast build rule for target.
+ternaryOperationTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperationTest.dir/build.make CMakeFiles/ternaryOperationTest.dir/build
+.PHONY : ternaryOperationTest/fast
 
 #=============================================================================
 # Target rules for targets named DeepAndShallowTest
@@ -167,6 +219,19 @@ FandAandPTest: cmake_check_build_system
 FandAandPTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FandAandPTest.dir/build.make CMakeFiles/FandAandPTest.dir/build
 .PHONY : FandAandPTest/fast
+
+#=============================================================================
+# Target rules for targets named operationTest
+
+# Build rule for target.
+operationTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 operationTest
+.PHONY : operationTest
+
+# fast build rule for target.
+operationTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operationTest.dir/build.make CMakeFiles/operationTest.dir/build
+.PHONY : operationTest/fast
 
 #=============================================================================
 # Target rules for targets named FandPTest
@@ -286,6 +351,32 @@ CopyFunctionTest/fast:
 .PHONY : CopyFunctionTest/fast
 
 #=============================================================================
+# Target rules for targets named charTest
+
+# Build rule for target.
+charTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 charTest
+.PHONY : charTest
+
+# fast build rule for target.
+charTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/charTest.dir/build.make CMakeFiles/charTest.dir/build
+.PHONY : charTest/fast
+
+#=============================================================================
+# Target rules for targets named boolTest
+
+# Build rule for target.
+boolTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boolTest
+.PHONY : boolTest
+
+# fast build rule for target.
+boolTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boolTest.dir/build.make CMakeFiles/boolTest.dir/build
+.PHONY : boolTest/fast
+
+#=============================================================================
 # Target rules for targets named PointerTest
 
 # Build rule for target.
@@ -377,6 +468,32 @@ bubbleSortTest/fast:
 .PHONY : bubbleSortTest/fast
 
 #=============================================================================
+# Target rules for targets named logicTest
+
+# Build rule for target.
+logicTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logicTest
+.PHONY : logicTest
+
+# fast build rule for target.
+logicTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logicTest.dir/build.make CMakeFiles/logicTest.dir/build
+.PHONY : logicTest/fast
+
+#=============================================================================
+# Target rules for targets named ThisPointTest
+
+# Build rule for target.
+ThisPointTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ThisPointTest
+.PHONY : ThisPointTest
+
+# fast build rule for target.
+ThisPointTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThisPointTest.dir/build.make CMakeFiles/ThisPointTest.dir/build
+.PHONY : ThisPointTest/fast
+
+#=============================================================================
 # Target rules for targets named daffodilsTest
 
 # Build rule for target.
@@ -401,19 +518,6 @@ gotoTest: cmake_check_build_system
 gotoTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gotoTest.dir/build.make CMakeFiles/gotoTest.dir/build
 .PHONY : gotoTest/fast
-
-#=============================================================================
-# Target rules for targets named breakTest
-
-# Build rule for target.
-breakTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 breakTest
-.PHONY : breakTest
-
-# fast build rule for target.
-breakTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/breakTest.dir/build.make CMakeFiles/breakTest.dir/build
-.PHONY : breakTest/fast
 
 #=============================================================================
 # Target rules for targets named twoArrayTest
@@ -455,6 +559,32 @@ MyTest/fast:
 .PHONY : MyTest/fast
 
 #=============================================================================
+# Target rules for targets named ConstMemberFunctonTest
+
+# Build rule for target.
+ConstMemberFunctonTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ConstMemberFunctonTest
+.PHONY : ConstMemberFunctonTest
+
+# fast build rule for target.
+ConstMemberFunctonTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstMemberFunctonTest.dir/build.make CMakeFiles/ConstMemberFunctonTest.dir/build
+.PHONY : ConstMemberFunctonTest/fast
+
+#=============================================================================
+# Target rules for targets named functionTest
+
+# Build rule for target.
+functionTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functionTest
+.PHONY : functionTest
+
+# fast build rule for target.
+functionTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/functionTest.dir/build.make CMakeFiles/functionTest.dir/build
+.PHONY : functionTest/fast
+
+#=============================================================================
 # Target rules for targets named escapeTest
 
 # Build rule for target.
@@ -492,32 +622,6 @@ whileTest: cmake_check_build_system
 whileTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/whileTest.dir/build.make CMakeFiles/whileTest.dir/build
 .PHONY : whileTest/fast
-
-#=============================================================================
-# Target rules for targets named ternaryOperationTest
-
-# Build rule for target.
-ternaryOperationTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ternaryOperationTest
-.PHONY : ternaryOperationTest
-
-# fast build rule for target.
-ternaryOperationTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ternaryOperationTest.dir/build.make CMakeFiles/ternaryOperationTest.dir/build
-.PHONY : ternaryOperationTest/fast
-
-#=============================================================================
-# Target rules for targets named logicTest
-
-# Build rule for target.
-logicTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logicTest
-.PHONY : logicTest
-
-# fast build rule for target.
-logicTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/logicTest.dir/build.make CMakeFiles/logicTest.dir/build
-.PHONY : logicTest/fast
 
 #=============================================================================
 # Target rules for targets named StructureTest
@@ -559,32 +663,6 @@ StructArrayTest/fast:
 .PHONY : StructArrayTest/fast
 
 #=============================================================================
-# Target rules for targets named functionTest
-
-# Build rule for target.
-functionTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 functionTest
-.PHONY : functionTest
-
-# fast build rule for target.
-functionTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/functionTest.dir/build.make CMakeFiles/functionTest.dir/build
-.PHONY : functionTest/fast
-
-#=============================================================================
-# Target rules for targets named compareTest
-
-# Build rule for target.
-compareTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compareTest
-.PHONY : compareTest
-
-# fast build rule for target.
-compareTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/compareTest.dir/build.make CMakeFiles/compareTest.dir/build
-.PHONY : compareTest/fast
-
-#=============================================================================
 # Target rules for targets named assignmentTest
 
 # Build rule for target.
@@ -611,17 +689,17 @@ switchTest/fast:
 .PHONY : switchTest/fast
 
 #=============================================================================
-# Target rules for targets named operationTest
+# Target rules for targets named VariableAndFunctionTest
 
 # Build rule for target.
-operationTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 operationTest
-.PHONY : operationTest
+VariableAndFunctionTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 VariableAndFunctionTest
+.PHONY : VariableAndFunctionTest
 
 # fast build rule for target.
-operationTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/operationTest.dir/build.make CMakeFiles/operationTest.dir/build
-.PHONY : operationTest/fast
+VariableAndFunctionTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VariableAndFunctionTest.dir/build.make CMakeFiles/VariableAndFunctionTest.dir/build
+.PHONY : VariableAndFunctionTest/fast
 
 #=============================================================================
 # Target rules for targets named cinTest
@@ -635,19 +713,6 @@ cinTest: cmake_check_build_system
 cinTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cinTest.dir/build.make CMakeFiles/cinTest.dir/build
 .PHONY : cinTest/fast
-
-#=============================================================================
-# Target rules for targets named boolTest
-
-# Build rule for target.
-boolTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boolTest
-.PHONY : boolTest
-
-# fast build rule for target.
-boolTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boolTest.dir/build.make CMakeFiles/boolTest.dir/build
-.PHONY : boolTest/fast
 
 #=============================================================================
 # Target rules for targets named stringTest
@@ -700,19 +765,6 @@ TeacherAndStudentTest: cmake_check_build_system
 TeacherAndStudentTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeacherAndStudentTest.dir/build.make CMakeFiles/TeacherAndStudentTest.dir/build
 .PHONY : TeacherAndStudentTest/fast
-
-#=============================================================================
-# Target rules for targets named charTest
-
-# Build rule for target.
-charTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 charTest
-.PHONY : charTest
-
-# fast build rule for target.
-charTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/charTest.dir/build.make CMakeFiles/charTest.dir/build
-.PHONY : charTest/fast
 
 AandPTest.o: AandPTest.cpp.o
 
@@ -767,6 +819,33 @@ ClassObjectTest.s: ClassObjectTest.cpp.s
 ClassObjectTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassObjectTest.dir/build.make CMakeFiles/ClassObjectTest.dir/ClassObjectTest.cpp.s
 .PHONY : ClassObjectTest.cpp.s
+
+ConstMemberFunctonTest.o: ConstMemberFunctonTest.cpp.o
+
+.PHONY : ConstMemberFunctonTest.o
+
+# target to build an object file
+ConstMemberFunctonTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstMemberFunctonTest.dir/build.make CMakeFiles/ConstMemberFunctonTest.dir/ConstMemberFunctonTest.cpp.o
+.PHONY : ConstMemberFunctonTest.cpp.o
+
+ConstMemberFunctonTest.i: ConstMemberFunctonTest.cpp.i
+
+.PHONY : ConstMemberFunctonTest.i
+
+# target to preprocess a source file
+ConstMemberFunctonTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstMemberFunctonTest.dir/build.make CMakeFiles/ConstMemberFunctonTest.dir/ConstMemberFunctonTest.cpp.i
+.PHONY : ConstMemberFunctonTest.cpp.i
+
+ConstMemberFunctonTest.s: ConstMemberFunctonTest.cpp.s
+
+.PHONY : ConstMemberFunctonTest.s
+
+# target to generate assembly for a file
+ConstMemberFunctonTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConstMemberFunctonTest.dir/build.make CMakeFiles/ConstMemberFunctonTest.dir/ConstMemberFunctonTest.cpp.s
+.PHONY : ConstMemberFunctonTest.cpp.s
 
 ConstPointTest.o: ConstPointTest.cpp.o
 
@@ -1253,6 +1332,33 @@ NewTest.s: NewTest.cpp.s
 NewTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/NewTest.cpp.s
 .PHONY : NewTest.cpp.s
+
+NilPointTest.o: NilPointTest.cpp.o
+
+.PHONY : NilPointTest.o
+
+# target to build an object file
+NilPointTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NilPointTest.dir/build.make CMakeFiles/NilPointTest.dir/NilPointTest.cpp.o
+.PHONY : NilPointTest.cpp.o
+
+NilPointTest.i: NilPointTest.cpp.i
+
+.PHONY : NilPointTest.i
+
+# target to preprocess a source file
+NilPointTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NilPointTest.dir/build.make CMakeFiles/NilPointTest.dir/NilPointTest.cpp.i
+.PHONY : NilPointTest.cpp.i
+
+NilPointTest.s: NilPointTest.cpp.s
+
+.PHONY : NilPointTest.s
+
+# target to generate assembly for a file
+NilPointTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NilPointTest.dir/build.make CMakeFiles/NilPointTest.dir/NilPointTest.cpp.s
+.PHONY : NilPointTest.cpp.s
 
 NullPointTest.o: NullPointTest.cpp.o
 
@@ -1778,6 +1884,60 @@ TeacherAndStudentTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AandPTest.dir/build.make CMakeFiles/AandPTest.dir/TeacherAndStudentTest.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TeacherAndStudentTest.dir/build.make CMakeFiles/TeacherAndStudentTest.dir/TeacherAndStudentTest.cpp.s
 .PHONY : TeacherAndStudentTest.cpp.s
+
+ThisPointTest.o: ThisPointTest.cpp.o
+
+.PHONY : ThisPointTest.o
+
+# target to build an object file
+ThisPointTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThisPointTest.dir/build.make CMakeFiles/ThisPointTest.dir/ThisPointTest.cpp.o
+.PHONY : ThisPointTest.cpp.o
+
+ThisPointTest.i: ThisPointTest.cpp.i
+
+.PHONY : ThisPointTest.i
+
+# target to preprocess a source file
+ThisPointTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThisPointTest.dir/build.make CMakeFiles/ThisPointTest.dir/ThisPointTest.cpp.i
+.PHONY : ThisPointTest.cpp.i
+
+ThisPointTest.s: ThisPointTest.cpp.s
+
+.PHONY : ThisPointTest.s
+
+# target to generate assembly for a file
+ThisPointTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThisPointTest.dir/build.make CMakeFiles/ThisPointTest.dir/ThisPointTest.cpp.s
+.PHONY : ThisPointTest.cpp.s
+
+VariableAndFunctionTest.o: VariableAndFunctionTest.cpp.o
+
+.PHONY : VariableAndFunctionTest.o
+
+# target to build an object file
+VariableAndFunctionTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VariableAndFunctionTest.dir/build.make CMakeFiles/VariableAndFunctionTest.dir/VariableAndFunctionTest.cpp.o
+.PHONY : VariableAndFunctionTest.cpp.o
+
+VariableAndFunctionTest.i: VariableAndFunctionTest.cpp.i
+
+.PHONY : VariableAndFunctionTest.i
+
+# target to preprocess a source file
+VariableAndFunctionTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VariableAndFunctionTest.dir/build.make CMakeFiles/VariableAndFunctionTest.dir/VariableAndFunctionTest.cpp.i
+.PHONY : VariableAndFunctionTest.cpp.i
+
+VariableAndFunctionTest.s: VariableAndFunctionTest.cpp.s
+
+.PHONY : VariableAndFunctionTest.s
+
+# target to generate assembly for a file
+VariableAndFunctionTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VariableAndFunctionTest.dir/build.make CMakeFiles/VariableAndFunctionTest.dir/VariableAndFunctionTest.cpp.s
+.PHONY : VariableAndFunctionTest.cpp.s
 
 arrayTest.o: arrayTest.cpp.o
 
@@ -2437,6 +2597,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... AandPTest"
 	@echo "... ClassObjectTest"
+	@echo "... ConstMemberFunctonTest"
 	@echo "... ConstPointTest"
 	@echo "... ConstructorTest"
 	@echo "... CopyFunctionTest"
@@ -2447,6 +2608,7 @@ help:
 	@echo "... FunctionDeclarationTest"
 	@echo "... LieBiaoTest"
 	@echo "... MyTest"
+	@echo "... NilPointTest"
 	@echo "... NullPointTest"
 	@echo "... PointerTest"
 	@echo "... ReferenceTest"
@@ -2457,6 +2619,8 @@ help:
 	@echo "... StructureAndDestructorTest"
 	@echo "... StructureTest"
 	@echo "... TeacherAndStudentTest"
+	@echo "... ThisPointTest"
+	@echo "... VariableAndFunctionTest"
 	@echo "... arrayTest"
 	@echo "... assignmentTest"
 	@echo "... boolTest"
@@ -2486,6 +2650,9 @@ help:
 	@echo "... ClassObjectTest.o"
 	@echo "... ClassObjectTest.i"
 	@echo "... ClassObjectTest.s"
+	@echo "... ConstMemberFunctonTest.o"
+	@echo "... ConstMemberFunctonTest.i"
+	@echo "... ConstMemberFunctonTest.s"
 	@echo "... ConstPointTest.o"
 	@echo "... ConstPointTest.i"
 	@echo "... ConstPointTest.s"
@@ -2540,6 +2707,9 @@ help:
 	@echo "... NewTest.o"
 	@echo "... NewTest.i"
 	@echo "... NewTest.s"
+	@echo "... NilPointTest.o"
+	@echo "... NilPointTest.i"
+	@echo "... NilPointTest.s"
 	@echo "... NullPointTest.o"
 	@echo "... NullPointTest.i"
 	@echo "... NullPointTest.s"
@@ -2597,6 +2767,12 @@ help:
 	@echo "... TeacherAndStudentTest.o"
 	@echo "... TeacherAndStudentTest.i"
 	@echo "... TeacherAndStudentTest.s"
+	@echo "... ThisPointTest.o"
+	@echo "... ThisPointTest.i"
+	@echo "... ThisPointTest.s"
+	@echo "... VariableAndFunctionTest.o"
+	@echo "... VariableAndFunctionTest.i"
+	@echo "... VariableAndFunctionTest.s"
 	@echo "... arrayTest.o"
 	@echo "... arrayTest.i"
 	@echo "... arrayTest.s"
