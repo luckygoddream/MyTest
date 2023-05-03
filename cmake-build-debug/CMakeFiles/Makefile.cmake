@@ -47,6 +47,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/OperatorAddTest.dir/DependInfo.cmake"
+  "CMakeFiles/FriendMember.dir/DependInfo.cmake"
+  "CMakeFiles/FreindClass.dir/DependInfo.cmake"
+  "CMakeFiles/FriendFunction.dir/DependInfo.cmake"
   "CMakeFiles/NilPointTest.dir/DependInfo.cmake"
   "CMakeFiles/compareTest.dir/DependInfo.cmake"
   "CMakeFiles/breakTest.dir/DependInfo.cmake"

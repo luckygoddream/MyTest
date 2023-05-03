@@ -1,5 +1,9 @@
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/OperatorAddTest.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/FriendMember.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/FreindClass.dir
+/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/FriendFunction.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/NilPointTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/compareTest.dir
 /Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/CMakeFiles/breakTest.dir

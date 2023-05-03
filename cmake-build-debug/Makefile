@@ -130,6 +130,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named OperatorAddTest
+
+# Build rule for target.
+OperatorAddTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OperatorAddTest
+.PHONY : OperatorAddTest
+
+# fast build rule for target.
+OperatorAddTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OperatorAddTest.dir/build.make CMakeFiles/OperatorAddTest.dir/build
+.PHONY : OperatorAddTest/fast
+
+#=============================================================================
+# Target rules for targets named FriendMember
+
+# Build rule for target.
+FriendMember: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FriendMember
+.PHONY : FriendMember
+
+# fast build rule for target.
+FriendMember/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FriendMember.dir/build.make CMakeFiles/FriendMember.dir/build
+.PHONY : FriendMember/fast
+
+#=============================================================================
+# Target rules for targets named FreindClass
+
+# Build rule for target.
+FreindClass: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FreindClass
+.PHONY : FreindClass
+
+# fast build rule for target.
+FreindClass/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreindClass.dir/build.make CMakeFiles/FreindClass.dir/build
+.PHONY : FreindClass/fast
+
+#=============================================================================
+# Target rules for targets named FriendFunction
+
+# Build rule for target.
+FriendFunction: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FriendFunction
+.PHONY : FriendFunction
+
+# fast build rule for target.
+FriendFunction/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FriendFunction.dir/build.make CMakeFiles/FriendFunction.dir/build
+.PHONY : FriendFunction/fast
+
+#=============================================================================
 # Target rules for targets named NilPointTest
 
 # Build rule for target.
@@ -1090,6 +1142,87 @@ FenWenJian.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FenWenJian.dir/build.make CMakeFiles/FenWenJian.dir/FenWenJian.cpp.s
 .PHONY : FenWenJian.cpp.s
 
+FreindClass.o: FreindClass.cpp.o
+
+.PHONY : FreindClass.o
+
+# target to build an object file
+FreindClass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreindClass.dir/build.make CMakeFiles/FreindClass.dir/FreindClass.cpp.o
+.PHONY : FreindClass.cpp.o
+
+FreindClass.i: FreindClass.cpp.i
+
+.PHONY : FreindClass.i
+
+# target to preprocess a source file
+FreindClass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreindClass.dir/build.make CMakeFiles/FreindClass.dir/FreindClass.cpp.i
+.PHONY : FreindClass.cpp.i
+
+FreindClass.s: FreindClass.cpp.s
+
+.PHONY : FreindClass.s
+
+# target to generate assembly for a file
+FreindClass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FreindClass.dir/build.make CMakeFiles/FreindClass.dir/FreindClass.cpp.s
+.PHONY : FreindClass.cpp.s
+
+FriendFunction.o: FriendFunction.cpp.o
+
+.PHONY : FriendFunction.o
+
+# target to build an object file
+FriendFunction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FriendFunction.dir/build.make CMakeFiles/FriendFunction.dir/FriendFunction.cpp.o
+.PHONY : FriendFunction.cpp.o
+
+FriendFunction.i: FriendFunction.cpp.i
+
+.PHONY : FriendFunction.i
+
+# target to preprocess a source file
+FriendFunction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FriendFunction.dir/build.make CMakeFiles/FriendFunction.dir/FriendFunction.cpp.i
+.PHONY : FriendFunction.cpp.i
+
+FriendFunction.s: FriendFunction.cpp.s
+
+.PHONY : FriendFunction.s
+
+# target to generate assembly for a file
+FriendFunction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FriendFunction.dir/build.make CMakeFiles/FriendFunction.dir/FriendFunction.cpp.s
+.PHONY : FriendFunction.cpp.s
+
+FriendMember.o: FriendMember.cpp.o
+
+.PHONY : FriendMember.o
+
+# target to build an object file
+FriendMember.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FriendMember.dir/build.make CMakeFiles/FriendMember.dir/FriendMember.cpp.o
+.PHONY : FriendMember.cpp.o
+
+FriendMember.i: FriendMember.cpp.i
+
+.PHONY : FriendMember.i
+
+# target to preprocess a source file
+FriendMember.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FriendMember.dir/build.make CMakeFiles/FriendMember.dir/FriendMember.cpp.i
+.PHONY : FriendMember.cpp.i
+
+FriendMember.s: FriendMember.cpp.s
+
+.PHONY : FriendMember.s
+
+# target to generate assembly for a file
+FriendMember.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FriendMember.dir/build.make CMakeFiles/FriendMember.dir/FriendMember.cpp.s
+.PHONY : FriendMember.cpp.s
+
 FunctionDeclarationTest.o: FunctionDeclarationTest.cpp.o
 
 .PHONY : FunctionDeclarationTest.o
@@ -1386,6 +1519,33 @@ NullPointTest.s: NullPointTest.cpp.s
 NullPointTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NullPointTest.dir/build.make CMakeFiles/NullPointTest.dir/NullPointTest.cpp.s
 .PHONY : NullPointTest.cpp.s
+
+OperatorAddTest.o: OperatorAddTest.cpp.o
+
+.PHONY : OperatorAddTest.o
+
+# target to build an object file
+OperatorAddTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OperatorAddTest.dir/build.make CMakeFiles/OperatorAddTest.dir/OperatorAddTest.cpp.o
+.PHONY : OperatorAddTest.cpp.o
+
+OperatorAddTest.i: OperatorAddTest.cpp.i
+
+.PHONY : OperatorAddTest.i
+
+# target to preprocess a source file
+OperatorAddTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OperatorAddTest.dir/build.make CMakeFiles/OperatorAddTest.dir/OperatorAddTest.cpp.i
+.PHONY : OperatorAddTest.cpp.i
+
+OperatorAddTest.s: OperatorAddTest.cpp.s
+
+.PHONY : OperatorAddTest.s
+
+# target to generate assembly for a file
+OperatorAddTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OperatorAddTest.dir/build.make CMakeFiles/OperatorAddTest.dir/OperatorAddTest.cpp.s
+.PHONY : OperatorAddTest.cpp.s
 
 PointerTest.o: PointerTest.cpp.o
 
@@ -2605,11 +2765,15 @@ help:
 	@echo "... FandAandPTest"
 	@echo "... FandPTest"
 	@echo "... FenWenJian"
+	@echo "... FreindClass"
+	@echo "... FriendFunction"
+	@echo "... FriendMember"
 	@echo "... FunctionDeclarationTest"
 	@echo "... LieBiaoTest"
 	@echo "... MyTest"
 	@echo "... NilPointTest"
 	@echo "... NullPointTest"
+	@echo "... OperatorAddTest"
 	@echo "... PointerTest"
 	@echo "... ReferenceTest"
 	@echo "... StaticFunctionTest"
@@ -2680,6 +2844,15 @@ help:
 	@echo "... FenWenJian.o"
 	@echo "... FenWenJian.i"
 	@echo "... FenWenJian.s"
+	@echo "... FreindClass.o"
+	@echo "... FreindClass.i"
+	@echo "... FreindClass.s"
+	@echo "... FriendFunction.o"
+	@echo "... FriendFunction.i"
+	@echo "... FriendFunction.s"
+	@echo "... FriendMember.o"
+	@echo "... FriendMember.i"
+	@echo "... FriendMember.s"
 	@echo "... FunctionDeclarationTest.o"
 	@echo "... FunctionDeclarationTest.i"
 	@echo "... FunctionDeclarationTest.s"
@@ -2713,6 +2886,9 @@ help:
 	@echo "... NullPointTest.o"
 	@echo "... NullPointTest.i"
 	@echo "... NullPointTest.s"
+	@echo "... OperatorAddTest.o"
+	@echo "... OperatorAddTest.i"
+	@echo "... OperatorAddTest.s"
 	@echo "... PointerTest.o"
 	@echo "... PointerTest.i"
 	@echo "... PointerTest.s"

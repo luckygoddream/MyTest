@@ -37,6 +37,182 @@
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="OperatorAddTest">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/OperatorAddTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 OperatorAddTest"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OperatorAddTest/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/OperatorAddTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 OperatorAddTest/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FriendMember">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/FriendMember" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 FriendMember"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FriendMember/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/FriendMember" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 FriendMember/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FreindClass">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/FreindClass" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 FreindClass"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FreindClass/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/FreindClass" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 FreindClass/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FriendFunction">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/FriendFunction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 FriendFunction"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FriendFunction/fast">
+				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/FriendFunction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/aarch64-apple-darwin21"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/../../../../../../include/c++/12/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/12.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin21/12/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 FriendFunction/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="NilPointTest">
 				<Option output="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug/NilPointTest" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/jiaowenqi/CLionProjects/MyTest/cmake-build-debug"/>
@@ -2239,6 +2415,18 @@
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FenWenJian.h">
 			<Option target="FenWenJian"/>
 		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FreindClass.cpp">
+			<Option target="FreindClass"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FriendFunction.cpp">
+			<Option target="FriendFunction"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FriendFunction.h">
+			<Option target="FriendFunction"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FriendMember.cpp">
+			<Option target="FriendMember"/>
+		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/FunctionDeclarationTest.cpp">
 			<Option target="FunctionDeclarationTest"/>
 		</Unit>
@@ -2295,6 +2483,12 @@
 		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/NullPointTest.cpp">
 			<Option target="NullPointTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/OperatorAddTest.cpp">
+			<Option target="OperatorAddTest"/>
+		</Unit>
+		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/OperatorAddTest.h">
+			<Option target="OperatorAddTest"/>
 		</Unit>
 		<Unit filename="/Users/jiaowenqi/CLionProjects/MyTest/PointerTest.cpp">
 			<Option target="PointerTest"/>
